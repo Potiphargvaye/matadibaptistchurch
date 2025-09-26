@@ -1,0 +1,2620 @@
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/css/style.scss ***!
+  \***********************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/css/style.scss (1) ***!
+  \***************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+:root {
+  --padding-30: 30px;
+  --padding-40: 40px;
+  --padding-50: 50px;
+  --padding-100: 100px;
+  --h2-fontsize: 24px;
+  --h3-fontsize: 18px;
+  --h4-fontsize: 18px;
+  --h5-fontsize: 18px;
+  --h6-fontsize: 16px;
+  --gutter-50: 50px;
+  --gutter-30: 30px;
+  --gutter-25: 25px ;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: rgba(110, 88, 247, 0.7);
+}
+
+::selection {
+  color: #fff;
+  background: rgba(110, 88, 247, 0.7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.better-payment_page_better-payment-analytics .notice,
+.better-payment_page_better-payment-transactions .notice,
+.toplevel_page_better-payment-settings .notice {
+  margin: 15px;
+  margin-right: 20px;
+}
+
+.better-payment_page_better-payment-analytics .e-notice__dismiss,
+.better-payment_page_better-payment-transactions .e-notice__dismiss,
+.toplevel_page_better-payment-settings .e-notice__dismiss {
+  box-sizing: content-box;
+}
+
+.better-payment {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+  background: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  -o-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+.better-payment:not(.notice) {
+  min-height: 100vh;
+}
+
+@media (max-width: 1199.98px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767.98px) {
+  body {
+    font-size: 13px;
+  }
+}
+.better-payment a {
+  color: inherit;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.better-payment a:hover {
+  color: inherit;
+}
+
+.better-payment a.button:hover {
+  border-color: unset;
+}
+
+.better-payment a:focus,
+.better-payment input:focus,
+.better-payment textarea:focus,
+.better-payment select:focus,
+.better-payment a.button:focus,
+.better-payment .button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.better-payment li {
+  margin-bottom: 0;
+}
+
+.better-payment label {
+  margin-bottom: 0;
+}
+
+.better-payment h1,
+.better-payment h2,
+.better-payment h3,
+.better-payment h4,
+.better-payment h5,
+.better-payment h6,
+.better-payment p {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.better-payment h1,
+.better-payment h2,
+.better-payment h3,
+.better-payment h4,
+.better-payment h5,
+.better-payment h6 {
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.better-payment ul,
+.better-payment ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.better-payment img,
+.better-payment video {
+  max-width: 100%;
+}
+
+.better-payment .button::after,
+.better-payment .page__title span a::after,
+.better-payment .statistic .icon::after,
+.better-payment .pagination ul li a::after,
+.better-payment .pagination ul li span::after,
+.better-payment .button.button__active,
+.better-payment .button.add__button,
+.better-payment .bp-tabs .tab__menu .tab__list .tab__link.active,
+.better-payment .pagination ul li a.active,
+.better-payment .pagination ul li span.active {
+  background: linear-gradient(97.4deg, #A293FF 0%, #6E58F7 100%);
+  color: #fff;
+}
+
+.better-payment .fix-style.button::after {
+  background: unset;
+  color: unset;
+}
+
+.better-payment .button,
+.better-payment .page__title span a,
+.better-payment .statistic .icon,
+.better-payment .pagination ul li a,
+.better-payment .pagination ul li span {
+  position: relative;
+}
+
+.better-payment .button::before,
+.better-payment .page__title span a::before,
+.better-payment .statistic .icon::before,
+.better-payment .pagination ul li a::before,
+.better-payment .pagination ul li span::before,
+.better-payment .button::after,
+.better-payment .page__title span a::after,
+.better-payment .statistic .icon::after,
+.better-payment .pagination ul li a::after,
+.better-payment .pagination ul li span::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  z-index: -1;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.better-payment .button::before,
+.better-payment .page__title span a::before,
+.better-payment .statistic .icon::before,
+.better-payment .pagination ul li a::before,
+.better-payment .pagination ul li span::before {
+  background: rgba(110, 88, 247, 0.1);
+  opacity: 1;
+}
+
+.better-payment .fix-style.button::before {
+  background: unset;
+  opacity: unset;
+}
+
+.better-payment .button::after,
+.better-payment .page__title span a::after,
+.better-payment .statistic .icon::after,
+.better-payment .pagination ul li a::after,
+.better-payment .pagination ul li span::after {
+  opacity: 0;
+}
+
+.better-payment .button:hover,
+.better-payment .page__title span a:hover,
+.better-payment .statistic .icon:hover,
+.better-payment .pagination ul li a:hover,
+.better-payment .pagination ul li span:hover {
+  color: #fff;
+}
+
+.better-payment .payment__getway .button:hover,
+.better-payment .payment__info .button:hover {
+  color: #fff;
+}
+
+.better-payment .button:hover::before,
+.better-payment .page__title span a:hover::before,
+.better-payment .statistic .icon:hover::before,
+.better-payment .pagination ul li a:hover::before,
+.better-payment .pagination ul li span:hover::before {
+  opacity: 0;
+}
+
+.better-payment .button:hover::after,
+.better-payment .page__title span a:hover::after,
+.better-payment .statistic .icon:hover::after,
+.better-payment .pagination ul li a:hover::after,
+.better-payment .pagination ul li span:hover::after {
+  opacity: 1;
+}
+
+.better-payment .bp-tabs .tab__menu .tab__list .tab__link i,
+.better-payment .statistic .icon i,
+.better-payment .sidebar .sidebar__menu .sidebar__item .sidebar__link.active i,
+.better-payment .feature__card .icon i,
+.better-payment .transaction__info__wrap .transaction__info .info__header .title i,
+.better-payment .payment__info .payment__getway .title i,
+.better-payment .payment__info .email__activity .title i,
+.better-payment .payment__info .email__activity .activity__list li .content i {
+  background: linear-gradient(97.4deg, #A293FF 0%, #6E58F7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.better-payment .color__themeColor {
+  color: #6E58F7;
+}
+
+.better-payment a.color__themeColor:hover,
+.better-payment a.color__themeColor:focus {
+  color: #4427f5;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .color__themeLite {
+  color: #A293FF;
+}
+
+.better-payment a.color__themeLite:hover,
+.better-payment a.color__themeLite:focus {
+  color: #7660ff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .color__primary {
+  color: #15A15E;
+}
+
+.better-payment a.color__primary:hover,
+.better-payment a.color__primary:focus {
+  color: #0f7444;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .color__danger {
+  color: #FE494C;
+}
+
+.better-payment a.color__danger:hover,
+.better-payment a.color__danger:focus {
+  color: #fe161a;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .color__warning {
+  color: #FFB03A;
+}
+
+.better-payment a.color__warning:hover,
+.better-payment a.color__warning:focus {
+  color: #ff9c07;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .color__white {
+  color: #fff;
+}
+
+.better-payment a.color__white:hover,
+.better-payment a.color__white:focus {
+  color: #e6e6e6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .color__black {
+  color: #000;
+}
+
+.better-payment .color__dark {
+  color: #2A3256;
+}
+
+.better-payment a.color__dark:hover,
+.better-payment a.color__dark:focus {
+  color: #191e34;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .color__grey {
+  color: #F7F8FA;
+}
+
+.better-payment a.color__grey:hover,
+.better-payment a.color__grey:focus {
+  color: #d8dde6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .background__themeColor {
+  background-color: #6E58F7;
+}
+
+.better-payment .background__themeLite {
+  background-color: #A293FF;
+}
+
+.better-payment .background__primary {
+  background-color: #15A15E;
+}
+
+.better-payment .background__danger {
+  background-color: #FE494C;
+}
+
+.better-payment .background__warning {
+  background-color: #FFB03A;
+}
+
+.better-payment .background__white {
+  background-color: #fff;
+}
+
+.better-payment .background__black {
+  background-color: #000;
+}
+
+.better-payment .background__dark {
+  background-color: #2A3256;
+}
+
+.better-payment .background__grey {
+  background-color: #F7F8FA;
+}
+
+.better-payment .gradient__themeColor {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 88, 247, 0.3)), to(rgba(110, 88, 247, 0.05)));
+  background-image: linear-gradient(180deg, rgba(110, 88, 247, 0.3), rgba(110, 88, 247, 0.05));
+  color: #6E58F7;
+}
+
+.better-payment .gradient__themeLite {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(162, 147, 255, 0.3)), to(rgba(162, 147, 255, 0.05)));
+  background-image: linear-gradient(180deg, rgba(162, 147, 255, 0.3), rgba(162, 147, 255, 0.05));
+  color: #A293FF;
+}
+
+.better-payment .gradient__primary {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(21, 161, 94, 0.3)), to(rgba(21, 161, 94, 0.05)));
+  background-image: linear-gradient(180deg, rgba(21, 161, 94, 0.3), rgba(21, 161, 94, 0.05));
+  color: #15A15E;
+}
+
+.better-payment .gradient__danger {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 73, 76, 0.3)), to(rgba(254, 73, 76, 0.05)));
+  background-image: linear-gradient(180deg, rgba(254, 73, 76, 0.3), rgba(254, 73, 76, 0.05));
+  color: #FE494C;
+}
+
+.better-payment .gradient__warning {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 176, 58, 0.3)), to(rgba(255, 176, 58, 0.05)));
+  background-image: linear-gradient(180deg, rgba(255, 176, 58, 0.3), rgba(255, 176, 58, 0.05));
+  color: #FFB03A;
+}
+
+.better-payment .gradient__white {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.05)));
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  color: #fff;
+}
+
+.better-payment .gradient__black {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.05)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.05));
+  color: #000;
+}
+
+.better-payment .gradient__dark {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 50, 86, 0.3)), to(rgba(42, 50, 86, 0.05)));
+  background-image: linear-gradient(180deg, rgba(42, 50, 86, 0.3), rgba(42, 50, 86, 0.05));
+  color: #2A3256;
+}
+
+.better-payment .gradient__grey {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 248, 250, 0.3)), to(rgba(247, 248, 250, 0.05)));
+  background-image: linear-gradient(180deg, rgba(247, 248, 250, 0.3), rgba(247, 248, 250, 0.05));
+  color: #F7F8FA;
+}
+
+.better-payment .button__themeColor:not(.hover__highlight) {
+  background: #6E58F7;
+  color: #fff;
+  border-color: #6E58F7;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .button__themeColor:not(.hover__highlight):disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  border-color: #FE494C;
+}
+
+.better-payment .button__themeColor.hover__highlight {
+  color: #6E58F7;
+  border-color: transparent;
+  background: rgba(110, 88, 247, 0.1);
+}
+
+.better-payment .button__themeColor.hover__highlight:hover {
+  border-color: transparent;
+}
+
+.better-payment a.button__themeColor.active,
+.better-payment a.button__themeColor:hover,
+.better-payment button.button__themeColor.active,
+.better-payment button.button__themeColor:hover {
+  background: #5940f6;
+  color: #fff;
+  border-color: #5940f6;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.better-payment a.button__themeColor.active:disabled,
+.better-payment a.button__themeColor:hover:disabled,
+.better-payment button.button__themeColor.active:disabled,
+.better-payment button.button__themeColor:hover:disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .button__themeLite:not(.hover__highlight) {
+  background: #A293FF;
+  color: #fff;
+  border-color: #A293FF;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .button__themeLite:not(.hover__highlight):disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  border-color: #FE494C;
+}
+
+.better-payment .button__themeLite.hover__highlight {
+  color: #A293FF;
+  border-color: transparent;
+  background: rgba(162, 147, 255, 0.1);
+}
+
+.better-payment .button__themeLite.hover__highlight:hover {
+  border-color: transparent;
+}
+
+.better-payment a.button__themeLite.active,
+.better-payment a.button__themeLite:hover,
+.better-payment button.button__themeLite.active,
+.better-payment button.button__themeLite:hover {
+  background: #8c7aff;
+  color: #fff;
+  border-color: #8c7aff;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.better-payment a.button__themeLite.active:disabled,
+.better-payment a.button__themeLite:hover:disabled,
+.better-payment button.button__themeLite.active:disabled,
+.better-payment button.button__themeLite:hover:disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .button__primary:not(.hover__highlight) {
+  background: #15A15E;
+  color: #fff;
+  border-color: #15A15E;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .button__primary:not(.hover__highlight):disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  border-color: #FE494C;
+}
+
+.better-payment .button__primary.hover__highlight {
+  color: #15A15E;
+  border-color: transparent;
+  background: rgba(21, 161, 94, 0.1);
+}
+
+.better-payment .button__primary.hover__highlight:hover {
+  border-color: transparent;
+}
+
+.better-payment a.button__primary.active,
+.better-payment a.button__primary:hover,
+.better-payment button.button__primary.active,
+.better-payment button.button__primary:hover {
+  background: #128a51;
+  color: #fff;
+  border-color: #128a51;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.better-payment a.button__primary.active:disabled,
+.better-payment a.button__primary:hover:disabled,
+.better-payment button.button__primary.active:disabled,
+.better-payment button.button__primary:hover:disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .button__danger:not(.hover__highlight) {
+  background: #FE494C;
+  color: #fff;
+  border-color: #FE494C;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .button__danger:not(.hover__highlight):disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  border-color: #FE494C;
+}
+
+.better-payment .button__danger.hover__highlight {
+  color: #FE494C;
+  border-color: transparent;
+  background: rgba(254, 73, 76, 0.1);
+}
+
+.better-payment .button__danger.hover__highlight:hover {
+  border-color: transparent;
+}
+
+.better-payment a.button__danger.active,
+.better-payment a.button__danger:hover,
+.better-payment button.button__danger.active,
+.better-payment button.button__danger:hover {
+  background: #fe3033;
+  color: #fff;
+  border-color: #fe3033;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.better-payment a.button__danger.active:disabled,
+.better-payment a.button__danger:hover:disabled,
+.better-payment button.button__danger.active:disabled,
+.better-payment button.button__danger:hover:disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .button__warning:not(.hover__highlight) {
+  background: #FFB03A;
+  color: #fff;
+  border-color: #FFB03A;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .button__warning:not(.hover__highlight):disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  border-color: #FE494C;
+}
+
+.better-payment .button__warning.hover__highlight {
+  color: #FFB03A;
+  border-color: transparent;
+  background: rgba(255, 176, 58, 0.1);
+}
+
+.better-payment .button__warning.hover__highlight:hover {
+  border-color: transparent;
+}
+
+.better-payment a.button__warning.active,
+.better-payment a.button__warning:hover,
+.better-payment button.button__warning.active,
+.better-payment button.button__warning:hover {
+  background: #ffa621;
+  color: #fff;
+  border-color: #ffa621;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.better-payment a.button__warning.active:disabled,
+.better-payment a.button__warning:hover:disabled,
+.better-payment button.button__warning.active:disabled,
+.better-payment button.button__warning:hover:disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .button__white:not(.hover__highlight) {
+  background: #fff;
+  color: #9095a2;
+  border-color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .button__white:not(.hover__highlight):disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  border-color: #FE494C;
+}
+
+.better-payment .button__white.hover__highlight {
+  color: #fff;
+  border-color: transparent;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.better-payment .button__white.hover__highlight:hover {
+  border-color: transparent;
+}
+
+.better-payment a.button__white.active,
+.better-payment a.button__white:hover,
+.better-payment button.button__white.active,
+.better-payment button.button__white:hover {
+  background: #f2f2f2;
+  color: #9095a2;
+  border-color: #f2f2f2;
+  text-shadow: 0 1px 1px rgba(144, 149, 162, 0.3);
+}
+
+.better-payment a.button__white.active:disabled,
+.better-payment a.button__white:hover:disabled,
+.better-payment button.button__white.active:disabled,
+.better-payment button.button__white:hover:disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .button__black:not(.hover__highlight) {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .button__black:not(.hover__highlight):disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  border-color: #FE494C;
+}
+
+.better-payment .button__black.hover__highlight {
+  color: #000;
+  border-color: transparent;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.better-payment .button__black.hover__highlight:hover {
+  border-color: transparent;
+}
+
+.better-payment a.button__black.active:disabled,
+.better-payment a.button__black:hover:disabled,
+.better-payment button.button__black.active:disabled,
+.better-payment button.button__black:hover:disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .button__dark:not(.hover__highlight) {
+  background: #2A3256;
+  color: #fff;
+  border-color: #2A3256;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .button__dark:not(.hover__highlight):disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  border-color: #FE494C;
+}
+
+.better-payment .button__dark.hover__highlight {
+  color: #2A3256;
+  border-color: transparent;
+  background: rgba(42, 50, 86, 0.1);
+}
+
+.better-payment .button__dark.hover__highlight:hover {
+  border-color: transparent;
+}
+
+.better-payment a.button__dark.active,
+.better-payment a.button__dark:hover,
+.better-payment button.button__dark.active,
+.better-payment button.button__dark:hover {
+  background: #222845;
+  color: #fff;
+  border-color: #222845;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.better-payment a.button__dark.active:disabled,
+.better-payment a.button__dark:hover:disabled,
+.better-payment button.button__dark.active:disabled,
+.better-payment button.button__dark:hover:disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .button__grey:not(.hover__highlight) {
+  background: #F7F8FA;
+  color: #9095a2;
+  border-color: #F7F8FA;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .button__grey:not(.hover__highlight):disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  border-color: #FE494C;
+}
+
+.better-payment .button__grey.hover__highlight {
+  color: #F7F8FA;
+  border-color: transparent;
+  background: rgba(247, 248, 250, 0.1);
+}
+
+.better-payment .button__grey.hover__highlight:hover {
+  border-color: transparent;
+}
+
+.better-payment a.button__grey.active,
+.better-payment a.button__grey:hover,
+.better-payment button.button__grey.active,
+.better-payment button.button__grey:hover {
+  background: #e7eaf0;
+  color: #9095a2;
+  border-color: #e7eaf0;
+  text-shadow: 0 1px 1px rgba(144, 149, 162, 0.3);
+}
+
+.better-payment a.button__grey.active:disabled,
+.better-payment a.button__grey:hover:disabled,
+.better-payment button.button__grey.active:disabled,
+.better-payment button.button__grey:hover:disabled {
+  cursor: not-allowed;
+  background: #FE494C;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.better-payment .button {
+  text-align: center;
+  padding: 12px 30px;
+  line-height: 1.3;
+  color: #6E58F7;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.better-payment .payment__getway .button,
+.better-payment .payment__info .button {
+  text-align: center;
+  padding: 12px 30px;
+  line-height: 1.3;
+  color: #6E58F7;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 10px;
+  height: unset;
+  background: unset;
+}
+
+.better-payment .button.button--sm {
+  padding: 9.5px 20px;
+}
+
+.better-payment .button.button__active {
+  border: 0;
+  /* padding: 13px 30px; */
+  padding: 20px 30px;
+}
+
+.better-payment .button.add__button {
+  /* padding: 7.5px 15px; */
+  padding: 20px 15px;
+  border: 2px solid;
+}
+
+.better-payment .button.add__button:hover span {
+  color: #6E58F7;
+}
+
+.better-payment .button.add__button span {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 32px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  color: #6E58F7;
+}
+
+.better-payment button.button {
+  cursor: pointer;
+}
+
+.better-payment .button__flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.better-payment .radius-10 {
+  border-radius: 10px;
+}
+
+.better-payment .radius-15 {
+  border-radius: 15px;
+}
+
+.better-payment .radius-20 {
+  border-radius: 20px;
+}
+
+.better-payment .label__themeColor {
+  background: #6E58F7;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .label__themeLite {
+  background: #A293FF;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .label__primary {
+  background: #15A15E;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .label__danger {
+  background: #FE494C;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .label__warning {
+  background: #FFB03A;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .label__white {
+  background: #fff;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .label__black {
+  background: #000;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .label__dark {
+  background: #2A3256;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .label__grey {
+  background: #F7F8FA;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, color, box-shadow, border;
+  -webkit-transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, border, -webkit-box-shadow;
+  transition-property: background, color, box-shadow, border;
+  transition-property: background, color, box-shadow, border, -webkit-box-shadow;
+}
+
+.better-payment .text__label {
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 3px 15px;
+}
+
+.better-payment .badge__themeColor {
+  background: rgba(110, 88, 247, 0.1);
+  color: #6E58F7;
+}
+
+.better-payment .badge__themeLite {
+  background: rgba(162, 147, 255, 0.1);
+  color: #A293FF;
+}
+
+.better-payment .badge__primary {
+  background: rgba(21, 161, 94, 0.1);
+  color: #15A15E;
+}
+
+.better-payment .badge__danger {
+  background: rgba(254, 73, 76, 0.1);
+  color: #FE494C;
+}
+
+.better-payment .badge__warning {
+  background: rgba(255, 176, 58, 0.1);
+  color: #FFB03A;
+}
+
+.better-payment .badge__white {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.better-payment .badge__black {
+  background: rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.better-payment .badge__dark {
+  background: rgba(42, 50, 86, 0.1);
+  color: #2A3256;
+}
+
+.better-payment .badge__grey {
+  background: rgba(247, 248, 250, 0.1);
+  color: #F7F8FA;
+}
+
+.better-payment .badge {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9095A2;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+@media (max-width: 767.98px) {
+  .better-payment .badge {
+    font-size: 12px;
+    padding: 3px 10px;
+  }
+}
+.better-payment .template__wrapper {
+  min-height: 100vh;
+  padding: 30px 5px;
+}
+
+.better-payment .template__wrapper--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.better-payment .o-hidden {
+  overflow: hidden;
+}
+
+.better-payment .text-center {
+  text-align: center;
+}
+
+.better-payment .text-right {
+  text-align: right !important;
+}
+
+.better-payment .h-100 {
+  height: 100%;
+}
+
+.better-payment svg {
+  font-family: "DM Sans", sans-serif;
+}
+
+.better-payment .px25 {
+  padding-right: var(--gutter-25);
+  padding-left: var(--gutter-25);
+}
+
+.better-payment .px30 {
+  padding-right: var(--gutter-30);
+  padding-left: var(--gutter-30);
+}
+
+.better-payment .px50 {
+  padding-right: var(--gutter-50);
+  padding-left: var(--gutter-50);
+}
+
+.better-payment .pt30 {
+  padding-top: var(--padding-30);
+}
+
+.better-payment .p50 {
+  padding: var(--padding-50);
+}
+
+.better-payment .pb50 {
+  padding-bottom: var(--padding-50);
+}
+
+.better-payment .pb30 {
+  padding-bottom: var(--padding-30);
+}
+
+.better-payment .mb50 {
+  margin-bottom: 50px;
+}
+
+.better-payment .mr10 {
+  margin-right: 10px;
+}
+
+.better-payment .mb30 {
+  margin-bottom: 30px;
+}
+
+.better-payment .mt30 {
+  margin-top: 30px;
+}
+
+.better-payment .mt0 {
+  margin-top: 0px !important;
+}
+
+.better-payment .mt15 {
+  margin-top: 15px;
+}
+
+.better-payment .mt20 {
+  margin-top: 20px;
+}
+
+.better-payment .mb20 {
+  margin-bottom: 20px;
+}
+
+.better-payment .ml0 {
+  margin-left: 0px;
+}
+
+.better-payment .pl0 {
+  padding-left: 0px !important;
+}
+
+.better-payment .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.better-payment .row {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
+.better-payment .row > * {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 1199.98px) {
+  .better-payment .lg-mb30 {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 991.98px) {
+  .better-payment .md-mb30 {
+    margin-bottom: 30px;
+  }
+}
+.better-payment .sidebar__tab__content {
+  display: none;
+}
+
+.better-payment .sidebar__tab__content.show {
+  display: block;
+}
+
+.better-payment .bp-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+}
+
+.better-payment .bp-row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.better-payment .bp-row > * {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.better-payment .bp-row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.better-payment .bp-col {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  overflow: auto;
+}
+
+.better-payment .bp-col-9 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.better-payment .bp-col-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+@media (min-width: 576px) {
+  .better-payment .bp-col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .better-payment .bp-col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .better-payment .bp-col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+}
+@media (min-width: 992px) {
+  .better-payment .bp-col-lg-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .better-payment .bp-col-lg-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+  }
+  .better-payment .bp-col-lg-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .better-payment .bp-col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .better-payment .bp-col-xl-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .better-payment .bp-col-xl-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+}
+.better-payment .main__content__area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.better-payment .main__content__area .sidebar {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 220px;
+  flex: 0 0 220px;
+  background: rgba(110, 88, 247, 0.1);
+}
+
+.better-payment .main__content__area .content__area__body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.better-payment .page__title span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: var(--h4-fontsize);
+  font-weight: 500;
+  color: #2A3256;
+}
+
+.better-payment .page__title span a {
+  background: #FFFFFF;
+  border: 1px solid rgba(131, 133, 142, 0.3);
+  border-radius: 2px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9095A2;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  margin-right: 15px;
+}
+
+.better-payment .page__title span a::before {
+  background: #fff;
+}
+
+.better-payment .page__title span a:hover i {
+  color: #fff;
+}
+
+.better-payment .page__title span a i {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+.better-payment .bp-tabs .tab__menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.better-payment .bp-tabs .tab__menu .tab__list {
+  margin-bottom: 5px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(25% - 4.5px);
+  flex: 0 0 calc(25% - 4.5px);
+}
+
+.better-payment .bp-tabs .tab__menu .tab__list:not(:last-child) {
+  margin-right: 6px;
+}
+
+.better-payment .bp-tabs .tab__menu .tab__list .tab__link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #9095A2;
+  background: #fff;
+  padding: 11.5px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.better-payment .bp-tabs .tab__menu .tab__list .tab__link.active i {
+  color: #fff;
+  -webkit-text-fill-color: unset;
+}
+
+.better-payment .bp-tabs .tab__menu .tab__list .tab__link i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.better-payment .bp-tabs .tab__content__item {
+  display: none;
+}
+
+.better-payment .bp-tabs .tab__content__item.show {
+  display: block;
+}
+
+.better-payment .statistic {
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: box-shadow;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+}
+
+.better-payment .statistic:hover {
+  -webkit-box-shadow: -30px 30px 150px rgba(0, 0, 0, 0.1);
+  box-shadow: -30px 30px 150px rgba(0, 0, 0, 0.1);
+}
+
+.better-payment .statistic:hover .icon {
+  color: #fff;
+}
+
+.better-payment .statistic:hover .icon i {
+  -webkit-text-fill-color: unset;
+  color: #fff;
+}
+
+.better-payment .statistic:hover .icon::before {
+  opacity: 0;
+}
+
+.better-payment .statistic:hover .icon::after {
+  opacity: 1;
+}
+
+.better-payment .statistic .icon {
+  height: 80px;
+  width: 80px;
+  min-width: 80px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 80px;
+  flex: 0 0 80px;
+  border-radius: 50%;
+  line-height: 83px;
+  text-align: center;
+  font-size: 30px;
+  overflow: hidden;
+  z-index: 1;
+  margin-right: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background;
+  transition-property: background;
+}
+
+.better-payment .statistic .icon i {
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+.better-payment .statistic .statistic__body h3 {
+  font-size: var(--h3-fontsize);
+  font-weight: 700;
+  color: #2A3256;
+}
+
+.better-payment .statistic .statistic__body p {
+  font-size: var(--h6-fontsize);
+  font-weight: 400;
+  color: #9095A2;
+}
+
+.better-payment .sidebar .sidebar__menu {
+  padding: 20px 0;
+}
+
+.better-payment .sidebar .sidebar__menu .sidebar__item {
+  padding: 8px 0;
+}
+
+.better-payment .sidebar .sidebar__menu .sidebar__item .sidebar__link {
+  padding: 2px 20px;
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: var(--h6-fontsize);
+  font-weight: 400;
+  color: #9095A2;
+}
+
+.better-payment .sidebar .sidebar__menu .sidebar__item .sidebar__link i {
+  margin-right: 13px;
+}
+
+.better-payment .sidebar .sidebar__menu .sidebar__item .sidebar__link.active {
+  color: #2A3256;
+}
+
+.better-payment .sidebar .sidebar__menu .sidebar__item .sidebar__link.active::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: #6E58F7;
+  content: "";
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.better-payment .sidebar .sidebar__menu .sidebar__item .sub__menu {
+  padding-left: 50px;
+  margin-top: 5px;
+  display: none;
+}
+
+.better-payment .sidebar .sidebar__menu .sidebar__item .sub__menu li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.better-payment .sidebar .sidebar__menu .sidebar__item .sub__menu li a {
+  font-size: var(--h6-fontsize);
+  font-weight: 400;
+  color: #9095A2;
+}
+
+.better-payment .sidebar .sidebar__menu .sidebar__item .sub__menu li a.active {
+  color: #2A3256;
+}
+
+.better-payment .payment__options .payment__option {
+  padding: var(--padding-30);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.better-payment .payment__options .payment__option:not(:last-child) {
+  border-bottom: 1px solid rgba(110, 88, 247, 0.1);
+}
+
+.better-payment .payment__options .payment__option:first-child {
+  padding-top: 45px;
+}
+
+.better-payment .payment__options .payment__option:last-child {
+  padding-bottom: 45px;
+}
+
+.better-payment .payment__options .payment__option .payment__option__content {
+  padding-right: 15px;
+}
+
+.better-payment .payment__options .payment__option .payment__option__content h4 {
+  font-size: var(--h4-fontsize);
+  font-weight: 700;
+  color: #2A3256;
+  margin-bottom: 5px;
+}
+
+.better-payment .payment__options .payment__option .payment__option__content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9095A2;
+}
+
+.better-payment .payment__options .payment__option .active__status.input__wrap {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 250px;
+  flex: 0 0 250px;
+}
+
+.better-payment .payment__options .payment__option .active__status .bp-select select {
+  min-width: 80px;
+  background: #fff;
+}
+
+.better-payment label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2A3256;
+}
+
+.better-payment .bp-switch input {
+  display: none;
+}
+
+.better-payment .bp-switch input:checked ~ .switch__btn {
+  background-color: #6E58F7;
+}
+
+.better-payment .bp-switch input:checked ~ .switch__btn::before {
+  left: 23px;
+}
+
+.better-payment .bp-switch .switch__btn {
+  height: 20px;
+  width: 40px;
+  border-radius: 20px;
+  background: #C5C7D3;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background;
+  transition-property: background;
+  position: relative;
+  cursor: pointer;
+}
+
+.better-payment .bp-switch .switch__btn:before {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  content: "";
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.better-payment .bp-select {
+  position: relative;
+}
+
+.better-payment .bp-select:before {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  content: "\e901";
+  font-family: "bp-icon";
+  color: #C5C7D3;
+  font-size: 12px;
+  pointer-events: none;
+}
+
+.better-payment .fix-style.bp-select:before {
+  position: unset;
+  bottom: unset;
+  right: unset;
+  content: "";
+  font-family: unset;
+  color: unset;
+  font-size: unset;
+  pointer-events: none;
+}
+
+.better-payment .bp-select select {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #C5C7D3;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2A3256;
+  padding: 0 15px;
+  -webkit-appearance: none;
+  padding-right: 30px;
+  background: #F7F8FA;
+}
+
+.better-payment .form__control {
+  background: #F7F8FA;
+  border: 1px solid #C5C7D3;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 14px;
+  padding: 0 20px;
+  width: 100%;
+  color: #2A3256;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background, border-color;
+  transition-property: background, border-color;
+}
+
+.better-payment .form__control::-webkit-input-placeholder {
+  color: #9095A2;
+}
+
+.better-payment .form__control:-moz-placeholder {
+  color: #9095A2;
+}
+
+.better-payment .form__control::-moz-placeholder {
+  color: #9095A2;
+}
+
+.better-payment .form__control:-ms-input-placeholder {
+  color: #9095A2;
+}
+
+.better-payment .form__control:focus {
+  border-color: rgba(110, 88, 247, 0.5);
+  background: #fff;
+}
+
+.better-payment textarea.form__control {
+  height: 120px;
+  resize: none;
+  padding-top: 13px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.better-payment .feature__card__wrapper {
+  padding-top: 30px;
+  height: 100%;
+}
+
+.better-payment .feature__card {
+  padding: 30px;
+  background: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: box-shadow;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  height: 100%;
+}
+
+.better-payment .feature__card:hover {
+  -webkit-box-shadow: -30px 30px 150px rgba(0, 0, 0, 0.1);
+  box-shadow: -30px 30px 150px rgba(0, 0, 0, 0.1);
+}
+
+.better-payment .feature__card .icon {
+  font-size: 36px;
+  margin-bottom: 5px;
+  display: block;
+  height: unset;
+  width: unset;
+}
+
+.better-payment .feature__card h3 {
+  font-size: var(--h3-fontsize);
+  font-weight: 700;
+  color: #2A3256;
+  margin-bottom: 15px;
+}
+
+.better-payment .feature__card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9095A2;
+  margin-bottom: 20px;
+}
+
+.better-payment .mailing__option .input__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.better-payment .mailing__option .input__wrap:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.better-payment .mailing__option .input__wrap .title {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 180px;
+  flex: 0 0 180px;
+  padding-right: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2A3256;
+}
+
+.better-payment .mailing__option .input__wrap .input__area {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.better-payment .mailing__option .input__wrap .input__area .bp-select,
+.better-payment .mailing__option .input__wrap .input__area .form__control {
+  max-width: 330px;
+}
+
+.better-payment .mailing__option .input__wrap .input__area p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9095A2;
+  margin-top: 7px;
+}
+
+.better-payment .go__premium h3 {
+  font-size: var(--h3-fontsize);
+  font-weight: 700;
+  color: #2A3256;
+  margin-bottom: 30px;
+}
+
+.better-payment .go__premium p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9095A2;
+  margin-bottom: 10px;
+  max-width: 700px;
+  line-height: 25px;
+}
+
+.better-payment .transactions {
+  background: #fff;
+  overflow: auto;
+}
+
+.better-payment .fix-style.transactions {
+  overflow: unset;
+}
+
+.better-payment .transaction__filter {
+  padding: 50px 50px 10px;
+}
+
+@media all and (max-width: 1399.98px) {
+  .better-payment .transaction__filter {
+    padding: 30px 30px 10px;
+  }
+}
+.better-payment .transaction__filter form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+@media all and (max-width: 1399.98px) {
+  .better-payment .transaction__filter form {
+    flex-wrap: wrap;
+  }
+}
+.better-payment .transaction__filter form > * {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 20%;
+  flex: 0 1 20%;
+  margin-right: 30px;
+}
+
+@media all and (max-width: 1399.98px) {
+  .better-payment .transaction__filter form > * {
+    flex: 0 1 calc(25% - 23px);
+  }
+  .better-payment .transaction__filter form > *:nth-child(4) {
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 767.98px) {
+  .better-payment .transaction__filter form > * {
+    flex: 0 1 calc(33.33% - 14px);
+    margin-right: 20px;
+  }
+  .better-payment .transaction__filter form > *:nth-child(4) {
+    margin-right: 20px;
+  }
+  .better-payment .transaction__filter form > *:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 575.98px) {
+  .better-payment .transaction__filter {
+    padding: 20px 20px 0;
+  }
+  .better-payment .transaction__filter form > * {
+    flex: 0 1 calc(50% - 10px);
+    margin-right: 20px;
+  }
+  .better-payment .transaction__filter form > *:nth-child(4) {
+    margin-right: 20px;
+  }
+  .better-payment .transaction__filter form > *:nth-child(3n) {
+    margin-right: 20px;
+  }
+  .better-payment .transaction__filter form > *:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+.better-payment .transaction__filter form button.button {
+  margin-bottom: 20px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-right: 0;
+}
+
+.better-payment .transaction__filter form button.button.fix-style {
+  margin-bottom: 0px;
+}
+
+.better-payment .transaction__table {
+  min-width: 979px;
+}
+
+.better-payment .transaction__table .table__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: box-shadow;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+}
+
+.better-payment .transaction__table .table__row:not(.row__head):not(:last-child) {
+  border-bottom: 1px solid rgba(110, 88, 247, 0.1);
+}
+
+.better-payment .transaction__table .table__row:hover:not(.row__head) {
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.03);
+}
+
+.better-payment .transaction__table .table__row:last-child {
+  padding-bottom: 10px;
+}
+
+.better-payment .transaction__table .table__row.row__head {
+  background: rgba(110, 88, 247, 0.1);
+}
+
+.better-payment .transaction__table .table__row .table__col {
+  padding: 10px 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2A3256;
+}
+
+.better-payment .transaction__table .table__row .table__col p {
+  word-break: break-all;
+}
+
+.better-payment .transaction__table .table__row .table__col.col__head {
+  font-weight: 600;
+}
+
+.better-payment .transaction__table .table__row .table__col:first-child {
+  padding-left: 50px;
+}
+
+.better-payment .transaction__table .table__row .table__col:last-child {
+  padding-right: 50px;
+}
+
+@media all and (max-width: 1399.98px) {
+  .better-payment .transaction__table .table__row .table__col:first-child {
+    padding-left: 30px;
+  }
+  .better-payment .transaction__table .table__row .table__col:last-child {
+    padding-right: 30px;
+  }
+}
+@media all and (max-width: 575.98px) {
+  .better-payment .transaction__table .table__row .table__col:first-child {
+    padding-left: 20px;
+  }
+  .better-payment .transaction__table .table__row .table__col:last-child {
+    padding-right: 20px;
+  }
+}
+.better-payment .transaction__table .table__row .table__col.col__name {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 170px;
+  flex: 1 1 170px;
+}
+
+.better-payment .transaction__table .table__row .table__col.col__email {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 200px;
+  flex: 1 1 200px;
+}
+
+.better-payment .transaction__table .table__row .table__col.col__amount {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 120px;
+  flex: 1 0 120px;
+}
+
+.better-payment .transaction__table .table__row .table__col.col__trans {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 260px;
+  flex: 1 1 260px;
+}
+
+.better-payment .transaction__table .table__row .table__col.col__source {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 90px;
+  flex: 1 0 90px;
+}
+
+.better-payment .transaction__table .table__row .table__col.col__status {
+  -webkit-box-flex: 1;
+  /* -ms-flex: 1 0 80px; */
+  -ms-flex: 1 0 110px;
+  flex: 1 0 110px;
+}
+
+.better-payment .transaction__table .table__row .table__col.col__action {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 150px;
+  flex: 0 0 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.better-payment .transaction__table .table__row .table__col.col__action .button {
+  border-radius: 5px;
+}
+
+.better-payment .transaction__info__wrap {
+  background: #fff;
+}
+
+.better-payment .transaction__info__wrap .transaction__info {
+  /* padding: var(--padding-50) */
+  padding: var(--padding-30);
+}
+
+.better-payment .transaction__info__wrap .transaction__info:not(:last-child) {
+  border-bottom: 1px solid rgba(110, 88, 247, 0.1);
+}
+
+.better-payment .transaction__info__wrap .transaction__info .info__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.better-payment .transaction__info__wrap .transaction__info .info__header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: auto;
+  font-size: var(--h4-fontsize);
+  font-weight: 500;
+  color: #2A3256;
+}
+
+.better-payment .transaction__info__wrap .transaction__info .info__header .title i {
+  margin-right: 10px;
+}
+
+.better-payment .transaction__info__wrap .transaction__info .informations {
+  padding: 0 0 0 30px;
+  margin: 0;
+}
+
+.better-payment .transaction__info__wrap .transaction__info .informations.informations__edit .edit__input__wrap span {
+  width: 120px;
+}
+
+.better-payment .transaction__info__wrap .transaction__info .informations.informations__edit .edit__input__wrap .form__control,
+.better-payment .transaction__info__wrap .transaction__info .informations.informations__edit .edit__input__wrap .bp-select {
+  width: 300px;
+}
+
+.better-payment .transaction__info__wrap .transaction__info .informations li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9095A2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.better-payment .transaction__info__wrap .transaction__info .informations li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.better-payment .transaction__info__wrap .transaction__info .informations li span {
+  color: #2A3256;
+  margin-right: 7px;
+}
+
+@media all and (max-width: 575.98px) {
+  .better-payment .transaction__info__wrap .transaction__info .informations li {
+    display: block;
+    font-size: 14px;
+  }
+  .better-payment .transaction__info__wrap .transaction__info .informations li span {
+    word-break: break-all;
+  }
+  .better-payment .transaction__info__wrap .transaction__info .informations li span:first-child {
+    display: block;
+  }
+}
+.better-payment .transaction__info__wrap .transaction__info .informations li span:first-child {
+  width: 150px;
+}
+
+.better-payment .payment__info {
+  background: #fff;
+}
+
+.better-payment .payment__info .payment__getway {
+  padding: var(--padding-30);
+  border-bottom: 1px solid rgba(110, 88, 247, 0.1);
+}
+
+.better-payment .payment__info .payment__getway.bp-pro-block-wrap {
+  border-top: 1px solid rgba(110, 88, 247, 0.1);
+}
+
+.better-payment .payment__info .payment__getway .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: var(--h4-fontsize);
+  font-weight: 500;
+  color: #2A3256;
+}
+
+.better-payment .payment__info .payment__getway .title i {
+  margin-right: 10px;
+}
+
+.better-payment .payment__info .payment__getway p {
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2A3256;
+  word-break: break-all;
+}
+
+.better-payment .payment__info .payment__getway p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.better-payment .payment__info .payment__getway p span {
+  color: #9095A2;
+}
+
+.better-payment .payment__info .payment__getway p span.bp-copy-clipboard {
+  color: #000;
+}
+
+.better-payment .payment__info .payment__getway .pay__by {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.better-payment .payment__info .payment__getway .pay__by label {
+  margin-right: 10px;
+  cursor: unset;
+}
+
+.better-payment .payment__info .payment__getway .pay__by label input {
+  display: none;
+}
+
+.better-payment .payment__info .payment__getway .pay__by label span {
+  background: #F7F8FA;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  display: inline-block;
+  font-size: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: border;
+  transition-property: border;
+}
+
+.better-payment .payment__info .payment__getway .pay__by label span img {
+  max-height: 100%;
+}
+
+.better-payment .payment__info .email__activity {
+  padding: 30px 0;
+}
+
+.better-payment .payment__info .email__activity .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  font-size: var(--h4-fontsize);
+  font-weight: 500;
+  color: #2A3256;
+}
+
+.better-payment .payment__info .email__activity .title i {
+  margin-right: 10px;
+}
+
+.better-payment .payment__info .email__activity .activity__list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 12px 30px 12px 60px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: background;
+  transition-property: background;
+}
+
+.better-payment .payment__info .email__activity .activity__list li:hover {
+  background: #F7F8FA;
+}
+
+.better-payment .payment__info .email__activity .activity__list li:hover .action .button {
+  opacity: 1;
+}
+
+.better-payment .payment__info .email__activity .activity__list li .content {
+  padding-left: 30px;
+  position: relative;
+}
+
+.better-payment .payment__info .email__activity .activity__list li .content i {
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+
+.better-payment .payment__info .email__activity .activity__list li .content h5 {
+  font-size: var(--h6-fontsize);
+  font-weight: 400;
+  color: #2A3256;
+  word-break: break-all;
+}
+
+.better-payment .payment__info .email__activity .activity__list li .content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9095A2;
+}
+
+.better-payment .payment__info .email__activity .activity__list li .action {
+  font-size: 0;
+}
+
+.better-payment .payment__info .email__activity .activity__list li .action .button {
+  border-radius: 5px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.better-payment .pagination ul {
+  text-align: right;
+}
+
+.better-payment .pagination ul li {
+  display: inline-block;
+}
+
+.better-payment .pagination ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.better-payment .pagination ul li a,
+.better-payment .pagination ul li span {
+  background: #FFFFFF;
+  border: 1px solid rgba(131, 133, 142, 0.3);
+  border-radius: 2px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9095A2;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0;
+}
+
+.better-payment .pagination .showing-entities-html {
+  font-size: 14px;
+  color: #9095A2;
+}
+
+.better-payment .pagination ul li a::before,
+.better-payment .pagination ul li span::before {
+  background: #fff;
+}
+
+.better-payment .pagination ul li a.active,
+.better-payment .pagination ul li span.active {
+  border: 0;
+}
+
+.better-payment .pagination ul li a.active::before,
+.better-payment .pagination ul li span.active::before {
+  background: transparent;
+}
+
+.better-payment .pagination ul li a:hover i,
+.better-payment .pagination ul li a.active i,
+.better-payment .pagination ul li span:hover i,
+.better-payment .pagination ul li span.active i {
+  color: #fff;
+}
+
+.better-payment .pagination ul li a i,
+.better-payment .pagination ul li span i {
+  font-size: 12px;
+  color: #9095A2;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+.better-payment .bp-d-none,
+.better-payment .payment__option.bp-d-none {
+  display: none;
+}
+
+.better-payment .bp-d-block,
+.better-payment .payment__option.bp-d-block {
+  display: block;
+}
+
+.better-payment .email-additional-headers-content {
+  display: none;
+}
+
+.wp-admin.toplevel_page_better-payment-settings #wpcontent,
+.wp-admin.better-payment_page_better-payment-transactions #wpcontent,
+.wp-admin.better-payment_page_better-payment-analytics #wpcontent {
+  /* padding-left: 0;     */
+  padding-left: 5px;
+}
+
+.wp-admin.toplevel_page_better-payment-settings #wpbody-content,
+.wp-admin.better-payment_page_better-payment-transactions #wpbody-content,
+.wp-admin.better-payment_page_better-payment-analytics #wpbody-content {
+  padding-bottom: 0;
+}
+
+#wpbody-content > .better-payment:not(.notice) {
+  /* margin-left: -20px; */
+  margin-left: -5px;
+}
+
+.admin-bar .toast-top-center {
+  top: 33px;
+}
+
+.better-payment .bp-copy-clipboard {
+  width: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.better-payment .bp-email-copy-clipboard {
+  cursor: pointer;
+}
+
+.better-payment .bp-copy-clipboard-input {
+  visibility: visible;
+}
+
+.better-payment .bp-text-black {
+  color: #000 !important;
+}
+
+.better-payment .single-transaction-id-copy-wrap #bp_copy_clipboard_input_2 {
+  margin-right: 8px;
+}
+
+.better-payment .bp-border-danger {
+  border: 1px solid #ff0000 !important;
+}
+
+.better-payment .setup-content .payment-configuration-title {
+  margin: 40px ​30px 10px 30p;
+}
+
+.better-payment .better_payment_settings_opt_in {
+  height: 20px;
+  width: 20px;
+}
+
+.better-payment .better_payment_settings_opt_in[type=checkbox]:checked::before {
+  height: 20px;
+  width: 20px;
+}
+
+.better-payment .better-payment-license-key-section {
+  padding: 30px;
+  border-radius: 5px;
+  background: #F1F4FA;
+}
+
+.better-payment .better-payment-license-key-input-activate,
+.better-payment .better-payment-license-key-input-deactivate {
+  height: 55px;
+  padding: 10px 20px;
+}
+
+.better-payment .better-payment-license-key-button-activate,
+.better-payment .better-payment-license-key-button-deactivate {
+  position: absolute !important;
+  right: 6px;
+  top: 6px;
+  height: unset;
+}
+.better-payment .better-payment-license-key-button-activate.button__active,
+.better-payment .better-payment-license-key-button-deactivate.button__active {
+  padding: 12px 20px;
+}
+
+.better-payment .better-payment-license-key-step-img {
+  margin-left: 50px;
+  margin-bottom: -10px;
+}
+
+.better-payment .better-payment-license-key-steps-list {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.better-payment .better-payment-license-key-button-deactivate,
+.better-payment .better-payment-license-key-button-deactivate:hover {
+  background: #FF4141;
+  color: #fff;
+}
+
+.better-payment .better-payment-license-key-button-deactivate::after {
+  background: unset !important;
+}
+
+.better-payment .bp-clearfix {
+  clear: both;
+}

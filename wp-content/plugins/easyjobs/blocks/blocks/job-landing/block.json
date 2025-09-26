@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "easyjobs/job-landing",
+    "icon": "info",
+	"version": "0.1.0",
+	"title": "Career Page",
+	"category": "easyjobs",
+	"description": "Customize your career page with a company profile, job list and company gallery for more personalization.",
+	"editorStyle": "ej-editor-style",
+	"supports": {
+		"anchor": true,
+		"align": ["wide", "full"]
+	},
+  	"textdomain": "easyjobs"
+}

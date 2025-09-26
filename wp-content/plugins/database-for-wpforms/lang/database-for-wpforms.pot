@@ -1,0 +1,75 @@
+# Copyright (C) 2024 wpdebuglog
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Database for WPforms 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/database-for-wpforms\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-23T17:13:38+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: database-for-wpforms\n"
+
+#. Plugin Name of the plugin
+#: database-for-wp-forms.php
+msgid "Database for WPforms"
+msgstr ""
+
+#. Description of the plugin
+#: database-for-wp-forms.php
+msgid "Save and manage WPForms submissions. Never lose important data. Database add-on for WPForms."
+msgstr ""
+
+#. Author of the plugin
+#: database-for-wp-forms.php
+msgid "wpdebuglog"
+msgstr ""
+
+#: database-for-wp-forms.php:38
+msgid "Invalid nonce..!!"
+msgstr ""
+
+#. translators: 1: Settings URL, 2: Repository url
+#: database-for-wp-forms.php:196
+msgid "Awesome, you've been using <a href=\"admin.php?page=wp-forms-db-list.php\">WPForms DB</a> for more than 1 week. May we ask you to give it a 5-star rating on WordPress? | <a href=\"%2$s\" target=\"_blank\">Ok, you deserved it</a> | <a href=\"%1$s\">I already did</a> | <a href=\"%1$s\">No, not good enough</a>"
+msgstr ""
+
+#: inc/class-form-details.php:35
+msgid "Not valid contact form"
+msgstr ""
+
+#: inc/class-main-page.php:68
+msgid "WPForms List"
+msgstr ""
+
+#: inc/class-sub-page.php:193
+msgid "Read"
+msgstr ""
+
+#: inc/class-sub-page.php:194
+msgid "Unread"
+msgstr ""
+
+#: inc/class-sub-page.php:195
+msgid "Delete"
+msgstr ""
+
+#: inc/class-sub-page.php:436
+msgid "Select bulk action"
+msgstr ""
+
+#: inc/class-sub-page.php:438
+msgid "Bulk Actions"
+msgstr ""
+
+#: inc/class-sub-page.php:448
+msgid "Apply"
+msgstr ""
+
+#: inc/class-sub-page.php:452
+msgid "Export CSV"
+msgstr ""

@@ -1,0 +1,3127 @@
+# Copyright (C) 2025 easy.jobs
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: easy.jobs 2.5.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easyjobs\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-10T11:44:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: easyjobs\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: easyjobs.php
+msgid "easy.jobs"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: easyjobs.php
+msgid "https://easy.jobs"
+msgstr ""
+
+#. Description of the plugin
+#: easyjobs.php
+msgid "Easy solution for the job recruitment to attract, manage & hire right talent faster."
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:187
+msgid "We hope you're enjoying EasyJobs! Could you please do us a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:198
+msgid "Sure, you deserve it!"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:207
+msgid "I already did"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:214
+msgid "Maybe Later"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:226
+msgid "I need help"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:230
+msgid "Never show again"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:654
+msgid "Easyjobs - Dashboard"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:655
+msgid "Dashboard"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:660
+msgid "Easyjobs - All jobs"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:661
+msgid "Jobs"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:666
+msgid "Easyjobs - Create job"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:667
+msgid "Create Job"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:673
+msgid "Easyjobs - Edit job"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:674
+msgid "Edit Job"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:680
+msgid "Easyjobs - Candidates"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:681
+#: admin/partials/easyjobs-admin-display.php:104
+#: admin/partials/easyjobs-admin-display.php:143
+#: admin/partials/easyjobs-admin-display.php:180
+#: admin/partials/easyjobs-admin-display.php:221
+#: admin/partials/easyjobs-admin-display.php:258
+#: admin/partials/easyjobs-admin-display.php:300
+#: admin/partials/easyjobs-jobs-display.php:96
+#: admin/partials/easyjobs-pipeline-display.php:32
+#: admin/assets/dist/react/easyjobs.js:13682
+#: admin/assets/dist/react/easyjobs.js:22501
+#: admin/react/src/components/Job/AllJobs/Controls.js:55
+#: admin/react/src/components/Pipeline/PipelineTopOptions.js:45
+msgid "Candidates"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:686
+#: admin/class-easyjobs-admin.php:692
+#: admin/class-easyjobs-admin.php:699
+msgid "Easyjobs - Questions"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:687
+msgid "Question Set"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:693
+msgid "Question Create"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:700
+msgid "Question Edit"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:706
+#: admin/class-easyjobs-admin.php:712
+#: admin/class-easyjobs-admin.php:719
+msgid "Easyjobs - Assessments"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:707
+msgid "Assessments"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:713
+msgid "Assessment Edit"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:720
+msgid "Assessment Create"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:726
+msgid "Easyjobs - Job Candidates"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:727
+msgid "Job Candidates"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:733
+msgid "Easyjobs - Pipelines"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:734
+msgid "Job Pipelines"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:740
+msgid "Easyjobs - Settings"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:741
+msgid "Settings"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:824
+msgid "Easyjobs Pipelines "
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:827
+msgid "Easyjobs Candidates "
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:1664
+msgid "Want to help make <strong>EasyJobs</strong> even more awesome?"
+msgstr ""
+
+#: admin/class-easyjobs-admin.php:1665
+msgid "We collect non-sensitive diagnostic data and plugin usage information. Your site URL, WordPress & PHP version, plugins & themes and email address to send you the  discount coupon. This data lets us make sure this plugin always stays compatible with the most popular plugins and themes. No spam, I promise."
+msgstr ""
+
+#: admin/customizer/controls.php:46
+#: admin/customizer/controls.php:433
+#: admin/customizer/controls.php:525
+#: admin/customizer/controls.php:563
+#: includes/class-easyjobs-helper.php:983
+#: includes/class-easyjobs-helper.php:1029
+#: includes/class-easyjobs-helper.php:1105
+#: public/class-easyjobs-public.php:377
+#: admin/assets/dist/react/easyjobs.js:9142
+#: admin/react/src/components/Candidate/index.js:265
+msgid "Reset"
+msgstr ""
+
+#: admin/customizer/controls.php:331
+msgid "Color 1"
+msgstr ""
+
+#: admin/customizer/controls.php:335
+#: admin/customizer/controls.php:345
+#: admin/customizer/controls.php:355
+#: admin/customizer/controls.php:365
+msgid "%"
+msgstr ""
+
+#: admin/customizer/controls.php:341
+msgid "Color 2"
+msgstr ""
+
+#: admin/customizer/controls.php:351
+msgid "Color 3"
+msgstr ""
+
+#: admin/customizer/controls.php:361
+msgid "Color 4"
+msgstr ""
+
+#: admin/customizer/controls.php:371
+msgid "Direction"
+msgstr ""
+
+#: admin/customizer/controls.php:383
+msgid "Angle"
+msgstr ""
+
+#: admin/customizer/controls.php:624
+msgid "Go Pro"
+msgstr ""
+
+#: admin/customizer/customizer.php:36
+msgid "Landing Page"
+msgstr ""
+
+#: admin/customizer/customizer.php:54
+#: admin/customizer/customizer.php:1562
+msgid "Container Width"
+msgstr ""
+
+#: admin/customizer/customizer.php:72
+msgid "Container custom max width"
+msgstr ""
+
+#: admin/customizer/customizer.php:92
+#: admin/customizer/customizer.php:1586
+msgid "Container Max Width"
+msgstr ""
+
+#: admin/customizer/customizer.php:110
+msgid "Content custom max width"
+msgstr ""
+
+#: admin/customizer/customizer.php:131
+msgid "Content Max Width"
+msgstr ""
+
+#: admin/customizer/customizer.php:155
+msgid "Container Padding"
+msgstr ""
+
+#: admin/customizer/customizer.php:174
+#: admin/customizer/customizer.php:421
+#: admin/customizer/customizer.php:811
+#: admin/customizer/customizer.php:1629
+#: admin/customizer/customizer.php:1805
+msgid "Top"
+msgstr ""
+
+#: admin/customizer/customizer.php:194
+#: admin/customizer/customizer.php:441
+#: admin/customizer/customizer.php:831
+#: admin/customizer/customizer.php:1649
+#: admin/customizer/customizer.php:1825
+#: includes/elementor/class-easyjobs-elementor-job-list.php:407
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1183
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:561
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:915
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1608
+msgid "Right"
+msgstr ""
+
+#: admin/customizer/customizer.php:215
+#: admin/customizer/customizer.php:462
+#: admin/customizer/customizer.php:852
+#: admin/customizer/customizer.php:1670
+#: admin/customizer/customizer.php:1846
+msgid "Bottom"
+msgstr ""
+
+#: admin/customizer/customizer.php:235
+#: admin/customizer/customizer.php:482
+#: admin/customizer/customizer.php:872
+#: admin/customizer/customizer.php:1295
+#: admin/customizer/customizer.php:1690
+#: admin/customizer/customizer.php:1866
+#: includes/elementor/class-easyjobs-elementor-job-list.php:399
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1175
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:553
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:907
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1600
+msgid "Left"
+msgstr ""
+
+#: admin/customizer/customizer.php:256
+#: admin/customizer/customizer.php:1711
+msgid "Page Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:276
+msgid "Page Section Heading Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:297
+msgid "Page Section Heading Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:320
+msgid "Page Section Heading Icon Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:340
+msgid "Page Section Heading Icon Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:359
+msgid "Company overview"
+msgstr ""
+
+#: admin/customizer/customizer.php:379
+#: admin/customizer/customizer.php:1763
+#: includes/elementor/class-easyjobs-elementor-job-list.php:735
+#: includes/elementor/class-easyjobs-elementor-job-list.php:768
+#: includes/elementor/class-easyjobs-elementor-job-list.php:826
+#: includes/elementor/class-easyjobs-elementor-job-list.php:859
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1217
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1252
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1012
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1047
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1161
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1194
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1252
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1285
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1642
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1677
+#: blocks/blocks/job-list/src/components/inspector.js:790
+#: blocks/blocks/job-list/src/components/inspector.js:820
+#: blocks/blocks/job-list/src/components/inspector.js:899
+#: blocks/blocks/job-list/src/components/inspector.js:929
+#: blocks/blocks/job-list/src/components/inspector.js:1274
+#: blocks/blocks/job-list/src/components/inspector.js:1304
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3981
+#: blocks/dist/index.js:4011
+#: blocks/dist/index.js:4090
+#: blocks/dist/index.js:4120
+#: blocks/dist/index.js:4465
+#: blocks/dist/index.js:4495
+msgid "Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:402
+#: admin/customizer/customizer.php:1610
+#: admin/customizer/customizer.php:1786
+msgid "Content Padding"
+msgstr ""
+
+#: admin/customizer/customizer.php:498
+#: admin/customizer/customizer.php:1882
+msgid "Hide Company Info"
+msgstr ""
+
+#: admin/customizer/customizer.php:514
+#: admin/customizer/customizer.php:1898
+msgid "Hide Company Logo"
+msgstr ""
+
+#: admin/customizer/customizer.php:534
+#: admin/customizer/customizer.php:1918
+msgid "Company Name Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:558
+#: admin/customizer/customizer.php:1942
+msgid "Company Location Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:575
+msgid "Hide Company Website Button"
+msgstr ""
+
+#: admin/customizer/customizer.php:596
+msgid "Company Website Button Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:618
+msgid "Website Button Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:638
+msgid "Website Button Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:657
+msgid "Website Button Hover Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:676
+msgid "Website Button Hover Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:690
+msgid "Hide Company Description"
+msgstr ""
+
+#: admin/customizer/customizer.php:711
+msgid "Company Description Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:734
+msgid "Company Description Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:751
+#: includes/elementor/class-easyjobs-elementor-job-list.php:243
+#: includes/elementor/class-easyjobs-elementor-job-list.php:883
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:390
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1308
+#: blocks/blocks/job-list/src/components/inspector.js:277
+#: blocks/blocks/job-list/src/components/inspector.js:946
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3468
+#: blocks/dist/index.js:4137
+msgid "Job List"
+msgstr ""
+
+#: admin/customizer/customizer.php:768
+#: admin/customizer/customizer.php:1533
+msgid "Heading"
+msgstr ""
+
+#: admin/customizer/customizer.php:791
+msgid "Column padding"
+msgstr ""
+
+#: admin/customizer/customizer.php:892
+msgid "Column Separator Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:913
+msgid "Job Title Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:936
+msgid "Job Title Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:955
+msgid "Job Title Hover Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:970
+msgid "Hide Job Metas"
+msgstr ""
+
+#: admin/customizer/customizer.php:991
+msgid "Job Meta Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:1013
+msgid "Job Meta Company Link Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1032
+msgid "Job Meta Location Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1052
+msgid "Job Deadline Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:1075
+msgid "Job Deadline Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1096
+msgid "Job Vacancy Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:1119
+msgid "Job Vacancy Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1140
+#: admin/customizer/customizer.php:2049
+msgid "Apply Button Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:1163
+#: admin/customizer/customizer.php:2093
+msgid "Apply Button Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1183
+#: admin/customizer/customizer.php:2072
+msgid "Apply Button Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1202
+#: admin/customizer/customizer.php:2132
+msgid "Apply Button Hover Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1221
+#: admin/customizer/customizer.php:2112
+msgid "Apply Button Hover Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1238
+#: includes/elementor/class-easyjobs-elementor-job-list.php:315
+#: includes/elementor/class-easyjobs-elementor-job-list.php:688
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:332
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1114
+#: blocks/blocks/job-list/src/components/inspector.js:236
+#: blocks/blocks/job-list/src/components/inspector.js:724
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3427
+#: blocks/dist/index.js:3915
+msgid "Job Filter"
+msgstr ""
+
+#: admin/customizer/customizer.php:1253
+#: includes/elementor/class-easyjobs-elementor-job-list.php:333
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:350
+msgid "Show Search by Title"
+msgstr ""
+
+#: admin/customizer/customizer.php:1268
+#: includes/elementor/class-easyjobs-elementor-job-list.php:345
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:362
+msgid "Show Search by Category"
+msgstr ""
+
+#: admin/customizer/customizer.php:1283
+#: includes/elementor/class-easyjobs-elementor-job-list.php:357
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:374
+msgid "Show Search by Location"
+msgstr ""
+
+#: admin/customizer/customizer.php:1315
+msgid "Submit Button Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:1338
+msgid "Submit Button Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1358
+msgid "Submit Button Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1377
+msgid "Submit Button Hover Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1396
+msgid "Submit Button Hover Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1416
+msgid "Reset Button Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:1439
+msgid "Reset Button Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1459
+msgid "Reset Button Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1478
+msgid "Reset Button Hover Text Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1497
+msgid "Reset Button Hover Background Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:1516
+#: admin/customizer/customizer.php:2379
+msgid "Showcase Image"
+msgstr ""
+
+#: admin/customizer/customizer.php:1544
+msgid "Job Details Page"
+msgstr ""
+
+#: admin/customizer/customizer.php:1726
+msgid "Display Banner Image?"
+msgstr ""
+
+#: admin/customizer/customizer.php:1743
+msgid "Job overview"
+msgstr ""
+
+#: admin/customizer/customizer.php:1966
+msgid "Job Info List Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:1989
+msgid "Job Info List Label Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:2009
+msgid "Job Info List Value Color"
+msgstr ""
+
+#: admin/customizer/customizer.php:2029
+msgid "Apply Button"
+msgstr ""
+
+#: admin/customizer/customizer.php:2152
+msgid "Social Sharing"
+msgstr ""
+
+#: admin/customizer/customizer.php:2165
+msgid "Disable Social Sharing"
+msgstr ""
+
+#: admin/customizer/customizer.php:2180
+msgid "Disable Facebook"
+msgstr ""
+
+#: admin/customizer/customizer.php:2195
+msgid "Disable Twitter"
+msgstr ""
+
+#: admin/customizer/customizer.php:2210
+msgid "Disable Linkedin"
+msgstr ""
+
+#: admin/customizer/customizer.php:2231
+msgid "Social Icon Background Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2255
+msgid "Social Icon Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2277
+msgid "Job Details"
+msgstr ""
+
+#: admin/customizer/customizer.php:2293
+#: admin/customizer/customizer.php:2327
+msgid "Job Description Heading"
+msgstr ""
+
+#: admin/customizer/customizer.php:2311
+msgid "Job Responsibility"
+msgstr ""
+
+#: admin/customizer/customizer.php:2345
+msgid "Job Benifits"
+msgstr ""
+
+#: admin/customizer/customizer.php:2361
+msgid "Job Benefits Heading"
+msgstr ""
+
+#: admin/customizer/customizer.php:2395
+msgid "Showcase Heading"
+msgstr ""
+
+#: admin/customizer/customizer.php:2415
+msgid "Page Typography"
+msgstr ""
+
+#: admin/customizer/customizer.php:2435
+msgid "H1 Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2459
+msgid "H2 Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2483
+msgid "H3 Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2507
+msgid "H4 Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2531
+msgid "H5 Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2555
+msgid "H6 Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2577
+msgid "Section Heading Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2600
+msgid "Body Content Font Size"
+msgstr ""
+
+#: admin/customizer/customizer.php:2619
+msgid "Easyjobs"
+msgstr ""
+
+#: admin/customizer/customizer.php:2620
+msgid "Controls the design settings for Easyjobs pages."
+msgstr ""
+
+#: admin/customizer/defaults.php:60
+#: includes/elementor/class-easyjobs-elementor-job-list.php:196
+#: public/partials-blocks/classic/list.php:27
+#: public/partials-blocks/classic/list.php:53
+#: public/partials-blocks/elegant/list.php:27
+#: public/partials-blocks/elegant/list.php:53
+#: public/partials/classic/list.php:25
+#: public/partials/classic/list.php:51
+#: public/partials/default/list.php:34
+#: public/partials/default/list.php:61
+#: public/partials/elegant/list.php:25
+#: public/partials/elegant/list.php:51
+#: blocks/blocks/job-list/src/components/attributes.js:59
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:2646
+msgid "Open Job Positions"
+msgstr ""
+
+#: admin/customizer/defaults.php:83
+#: admin/customizer/defaults.php:144
+#: public/partials-blocks/classic/footer.php:25
+#: public/partials-blocks/default/footer.php:23
+#: public/partials-blocks/elegant/footer.php:25
+#: public/partials/classic/landing.php:181
+#: public/partials/default/details.php:585
+#: public/partials/default/landing.php:161
+#: public/partials/elegant/landing.php:171
+msgid "Life at "
+msgstr ""
+
+#: admin/customizer/defaults.php:141
+msgid "So If You Are Someone Who Has"
+msgstr ""
+
+#: admin/customizer/defaults.php:142
+#: public/partials/classic/details.php:146
+#: public/partials/default/details.php:418
+#: public/partials/elegant/details.php:235
+msgid "Job Responsibilities"
+msgstr ""
+
+#: admin/customizer/defaults.php:143
+#: public/partials/classic/details.php:224
+#: public/partials/default/details.php:501
+#: public/partials/elegant/details.php:313
+msgid "Benefits"
+msgstr ""
+
+#: admin/includes/class-easyjobs-admin-candidates.php:426
+msgid "Candidate deleted successfully"
+msgstr ""
+
+#: admin/includes/class-easyjobs-admin-candidates.php:433
+msgid "Unable to delete candidate"
+msgstr ""
+
+#: admin/includes/class-easyjobs-admin-jobs.php:1133
+msgid "Job deleted successfully"
+msgstr ""
+
+#: admin/includes/class-easyjobs-admin-jobs.php:1135
+msgid "Failed to delete job, please try again or contact support"
+msgstr ""
+
+#: admin/includes/class-easyjobs-admin-pipeline.php:323
+msgid "Deleted successfully"
+msgstr ""
+
+#: admin/includes/class-easyjobs-admin-pipeline.php:325
+msgid "Failed to delete, please try again or contact support"
+msgstr ""
+
+#: admin/includes/class-easyjobs-notice.php:454
+msgid "Install Now!"
+msgstr ""
+
+#: admin/includes/class-easyjobs-notice.php:891
+msgid "Installing..."
+msgstr ""
+
+#: admin/includes/class-easyjobs-notice.php:903
+msgid "Installed"
+msgstr ""
+
+#: admin/includes/class-easyjobs-notice.php:982
+msgid "<strong>Black Friday Exclusive:</strong> SAVE up to 70% & access to <strong>easy.jobs Pro</strong>  features"
+msgstr ""
+
+#: admin/includes/class-easyjobs-notice.php:983
+msgid "Grab The Offer"
+msgstr ""
+
+#: admin/includes/class-easyjobs-page-template.php:56
+msgid "Easyjobs template"
+msgstr ""
+
+#: admin/includes/easyjobs-settings-page-helper.php:5
+#: includes/elementor/class-easyjobs-elementor-job-list.php:176
+#: includes/elementor/class-easyjobs-elementor-job-list.php:376
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:530
+#: blocks/blocks/job-header/src/components/inspector.js:235
+#: blocks/blocks/job-list/src/components/inspector.js:173
+#: blocks/blocks/job-list/src/components/inspector.js:383
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1230
+#: blocks/dist/index.js:3364
+#: blocks/dist/index.js:3574
+msgid "General"
+msgstr ""
+
+#: admin/includes/easyjobs-settings-page-helper.php:7
+msgid "Save Settings"
+msgstr ""
+
+#: admin/includes/easyjobs-settings-page-helper.php:14
+msgid "General Settings"
+msgstr ""
+
+#: admin/includes/easyjobs-settings-page-helper.php:19
+msgid "Api Key"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:25
+msgid "Version:"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:44
+#: admin/partials/easyjobs-jobs-display.php:66
+#: admin/assets/dist/react/easyjobs.js:14430
+#: admin/react/src/components/Job/AllJobs/index.js:72
+msgid "Published Jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:56
+#: admin/partials/easyjobs-dashboard-display.php:58
+#: admin/partials/easyjobs-jobs-display.php:347
+#: admin/assets/dist/react/easyjobs.js:10245
+#: admin/react/src/components/Dashboard/Counters.js:57
+msgid "Draft Jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:68
+#: admin/partials/easyjobs-jobs-display.php:224
+msgid "Archived Jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:101
+#: admin/partials/easyjobs-admin-display.php:177
+#: admin/partials/easyjobs-admin-display.php:255
+#: includes/elementor/class-easyjobs-elementor-job-list.php:194
+#: includes/elementor/class-easyjobs-elementor-job-list.php:255
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:405
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:833
+#: blocks/blocks/job-list/src/components/constants.js:5
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3003
+msgid "Title"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:107
+#: admin/partials/easyjobs-admin-display.php:183
+#: admin/partials/easyjobs-admin-display.php:261
+msgid "Department"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:110
+#: admin/partials/easyjobs-admin-display.php:186
+#: admin/partials/easyjobs-admin-display.php:264
+msgid "Expiry Date"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:113
+#: admin/partials/easyjobs-admin-display.php:189
+#: admin/partials/easyjobs-admin-display.php:267
+msgid "Action"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:139
+#: admin/partials/easyjobs-admin-display.php:217
+#: admin/partials/easyjobs-admin-display.php:296
+#: admin/assets/dist/react/easyjobs.js:28565
+#: admin/react/src/components/Settings/tabs/TemplateTab.js:49
+msgid "Preview"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:141
+#: admin/partials/easyjobs-admin-display.php:219
+#: admin/partials/easyjobs-admin-display.php:298
+#: admin/partials/easyjobs-candidates-display.php:40
+#: admin/partials/easyjobs-jobs-display.php:88
+#: admin/partials/easyjobs-jobs-display.php:246
+#: admin/assets/dist/react/easyjobs.js:13674
+#: admin/assets/dist/react/easyjobs.js:20550
+#: admin/react/src/components/Job/AllJobs/Controls.js:44
+#: admin/react/src/components/JobCandidates/index.js:346
+msgid "Pipeline"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:157
+msgid "No published jobs found"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-display.php:314
+msgid "No archived jobs found"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-header.php:28
+msgid "Version: "
+msgstr ""
+
+#: admin/partials/easyjobs-admin-header.php:33
+msgid "Sync data"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-header.php:36
+msgid "View Company Page"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:35
+msgid "Give us few more information about your company"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:39
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1014
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:473
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1439
+#: admin/assets/dist/react/easyjobs.js:25580
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:362
+#: blocks/blocks/job-header/src/components/inspector.js:336
+#: blocks/blocks/job-list/src/components/inspector.js:1050
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1331
+#: blocks/dist/index.js:4241
+msgid "Company Name"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:45
+msgid "Username / Company"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:55
+#: admin/partials/easyjobs-admin-landing.php:85
+msgid "tips"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:57
+msgid "Accepted characters for username are alphabets, numbers, hyphen & underscore."
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:62
+msgid "Phone No"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:68
+#: admin/assets/dist/react/easyjobs.js:25628
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:421
+msgid "Industry"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:80
+msgid "Website url"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:87
+msgid "Tips: Website URL should look like http://www.example.com"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:92
+#: admin/assets/dist/react/easyjobs.js:25762
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:577
+msgid "Number of Employees*"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:101
+msgid "Employees"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:111
+msgid "I Agree to the Terms and Policy*"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:116
+msgid "Get Started"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:200
+msgid "Watch Video"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:239
+#: admin/partials/easyjobs-admin-landing.php:261
+#: admin/assets/dist/react/easyjobs.js:21372
+#: admin/assets/dist/react/easyjobs.js:21647
+#: admin/react/src/components/Landing/Login.js:64
+#: admin/react/src/components/Landing/SignIn.js:87
+msgid "Sign In"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:242
+#: admin/assets/dist/react/easyjobs.js:21383
+#: admin/react/src/components/Landing/Login.js:77
+msgid "Sign Up"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:252
+#: admin/partials/easyjobs-admin-landing.php:331
+#: admin/partials/easyjobs-candidate-details.php:102
+#: admin/assets/dist/react/easyjobs.js:7771
+#: admin/assets/dist/react/easyjobs.js:21616
+#: admin/assets/dist/react/easyjobs.js:21806
+#: admin/react/src/components/Candidate/Details/ProfileInfo.js:37
+#: admin/react/src/components/Landing/SignIn.js:53
+#: admin/react/src/components/Landing/SignUp.js:112
+msgid "Email Address"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:257
+#: admin/partials/easyjobs-admin-landing.php:337
+#: admin/assets/dist/react/easyjobs.js:21631
+#: admin/assets/dist/react/easyjobs.js:21818
+#: admin/react/src/components/Landing/SignIn.js:70
+#: admin/react/src/components/Landing/SignUp.js:126
+msgid "Password"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:266
+#: admin/assets/dist/react/easyjobs.js:21417
+#: admin/react/src/components/Landing/Login.js:131
+msgid "Forgot Password?"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:276
+msgid "Api key"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:278
+msgid "Enter your api key"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:282
+msgid "Connect"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:294
+#: admin/partials/easyjobs-admin-landing.php:298
+#: admin/assets/dist/react/easyjobs.js:21494
+#: admin/assets/dist/react/easyjobs.js:21504
+#: admin/react/src/components/Landing/SelectCompany.js:22
+#: admin/react/src/components/Landing/SelectCompany.js:29
+msgid "Select Company"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:303
+#: admin/assets/dist/react/easyjobs.js:21512
+#: admin/assets/dist/react/easyjobs.js:25912
+#: admin/react/src/components/Landing/SelectCompany.js:38
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:749
+msgid "Save"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:315
+#: admin/partials/easyjobs-candidate-details.php:82
+#: admin/assets/dist/react/easyjobs.js:7755
+#: admin/assets/dist/react/easyjobs.js:21780
+#: admin/react/src/components/Candidate/Details/ProfileInfo.js:18
+#: admin/react/src/components/Landing/SignUp.js:80
+msgid "First Name"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:323
+#: admin/partials/easyjobs-candidate-details.php:92
+#: admin/assets/dist/react/easyjobs.js:7763
+#: admin/assets/dist/react/easyjobs.js:21794
+#: admin/react/src/components/Candidate/Details/ProfileInfo.js:27
+#: admin/react/src/components/Landing/SignUp.js:96
+msgid "Last Name"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:343
+#: admin/assets/dist/react/easyjobs.js:21830
+#: admin/react/src/components/Landing/SignUp.js:140
+msgid "Confirm Password"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:349
+#: admin/assets/dist/react/easyjobs.js:21845
+#: admin/react/src/components/Landing/SignUp.js:155
+msgid "Sign UP"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:375
+msgid "Api Connect Failed !!"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:378
+msgid "Invalid api key"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:384
+msgid "Api Connected Successfully !!"
+msgstr ""
+
+#: admin/partials/easyjobs-admin-landing.php:390
+#: public/partials/classic/details.php:413
+msgid "Close"
+msgstr ""
+
+#: admin/partials/easyjobs-all-candidates.php:32
+#: admin/assets/dist/react/easyjobs.js:9092
+#: admin/react/src/components/Candidate/index.js:210
+msgid "Select Job"
+msgstr ""
+
+#: admin/partials/easyjobs-all-candidates.php:86
+msgid "View details"
+msgstr ""
+
+#: admin/partials/easyjobs-all-candidates.php:127
+msgid "No candidates found."
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:112
+#: admin/assets/dist/react/easyjobs.js:7781
+#: admin/react/src/components/Candidate/Details/ProfileInfo.js:50
+msgid "Phone Number"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:122
+#: admin/assets/dist/react/easyjobs.js:7789
+#: admin/react/src/components/Candidate/Details/ProfileInfo.js:61
+msgid "Date of Application"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:131
+#: admin/assets/dist/react/easyjobs.js:7797
+#: admin/react/src/components/Candidate/Details/ProfileInfo.js:71
+msgid "Rate"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:143
+#: admin/assets/dist/react/easyjobs.js:7810
+#: admin/react/src/components/Candidate/Details/ProfileInfo.js:86
+msgid "Social Profile"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:175
+msgid "Application"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:180
+#: admin/partials/easyjobs-candidate-details.php:326
+msgid "Resume"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:187
+msgid "Evaluation"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:195
+msgid "Cover Letter"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:268
+#: admin/assets/dist/react/easyjobs.js:7899
+#: admin/react/src/components/Candidate/Details/Tabs/Application.js:24
+msgid "No cover letter"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:275
+#: admin/assets/dist/react/easyjobs.js:7903
+#: admin/react/src/components/Candidate/Details/Tabs/Application.js:31
+msgid "EXPERIENCE"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:276
+#: admin/assets/dist/react/easyjobs.js:7903
+#: admin/react/src/components/Candidate/Details/Tabs/Application.js:33
+msgid "Total Year Of Experience: "
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:276
+#: admin/assets/dist/react/easyjobs.js:22275
+#: admin/assets/dist/react/easyjobs.js:22593
+#: admin/react/src/components/Pipeline/PipelineBox.js:89
+#: admin/react/src/components/Pipeline/Stage.js:46
+msgid " Years"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:292
+#: admin/assets/dist/react/easyjobs.js:7915
+#: admin/react/src/components/Candidate/Details/Tabs/Application.js:57
+msgid "No job experience"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:300
+#: admin/assets/dist/react/easyjobs.js:7919
+#: admin/react/src/components/Candidate/Details/Tabs/Application.js:65
+msgid "EDUCATIONAL QUALIFICATION"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:316
+#: admin/assets/dist/react/easyjobs.js:7933
+#: admin/react/src/components/Candidate/Details/Tabs/Application.js:84
+msgid "No educational qualification"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:345
+msgid "AI Score"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:350
+#: admin/assets/dist/react/easyjobs.js:7982
+msgid "Skills"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:431
+#: admin/assets/dist/react/easyjobs.js:8057
+msgid "Quiz"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:438
+#: admin/assets/dist/react/easyjobs.js:8065
+msgid "Screening Question"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:567
+#: public/partials/default/details.php:115
+#: admin/assets/dist/react/easyjobs.js:7844
+#: admin/react/src/components/Candidate/Details/Salary.js:8
+msgid "Salary"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:572
+#: admin/assets/dist/react/easyjobs.js:7850
+#: admin/react/src/components/Candidate/Details/Salary.js:13
+msgid "Current Salary"
+msgstr ""
+
+#: admin/partials/easyjobs-candidate-details.php:576
+#: admin/assets/dist/react/easyjobs.js:7854
+#: admin/react/src/components/Candidate/Details/Salary.js:21
+msgid "Expected Salary"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:31
+#: admin/partials/easyjobs-pipeline-display.php:18
+#: admin/assets/dist/react/easyjobs.js:20531
+#: admin/assets/dist/react/easyjobs.js:22483
+#: admin/react/src/components/JobCandidates/index.js:317
+#: admin/react/src/components/Pipeline/PipelineTopOptions.js:19
+msgid "Back To Jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:35
+#: admin/partials/easyjobs-jobs-display.php:114
+#: admin/assets/dist/react/easyjobs.js:13722
+#: admin/assets/dist/react/easyjobs.js:20538
+#: admin/react/src/components/Job/AllJobs/Controls.js:104
+#: admin/react/src/components/JobCandidates/index.js:327
+msgid "More"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:38
+#: admin/assets/dist/react/easyjobs.js:20547
+#: admin/react/src/components/JobCandidates/index.js:340
+msgid "Invite candidates"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:42
+#: admin/assets/dist/react/easyjobs.js:20556
+#: admin/react/src/components/JobCandidates/index.js:353
+msgid "Export"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:44
+#: admin/partials/easyjobs-candidates-display.php:263
+#: admin/assets/dist/react/easyjobs.js:20562
+#: admin/assets/dist/react/easyjobs.js:20767
+#: admin/react/src/components/JobCandidates/index.js:362
+#: admin/react/src/components/JobCandidates/index.js:616
+msgid "Pending candidates"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:62
+#: admin/assets/dist/react/easyjobs.js:20581
+#: admin/react/src/components/JobCandidates/index.js:377
+msgid "Sort candidates"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:81
+#: admin/assets/dist/react/easyjobs.js:20606
+#: admin/react/src/components/JobCandidates/index.js:405
+msgid "Filter"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:89
+msgid "New"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:96
+#: admin/assets/dist/react/easyjobs.js:9110
+#: admin/react/src/components/Candidate/index.js:232
+msgid "Rated"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:103
+msgid "Not rated"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:113
+#: admin/assets/dist/react/easyjobs.js:20630
+#: admin/react/src/components/JobCandidates/index.js:434
+msgid "Filter By Stage"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:139
+#: admin/partials/easyjobs-candidates-display.php:239
+#: admin/partials/easyjobs-candidates-display.php:275
+#: admin/assets/dist/react/easyjobs.js:10130
+#: admin/assets/dist/react/easyjobs.js:20071
+#: admin/assets/dist/react/easyjobs.js:20705
+#: admin/assets/dist/react/easyjobs.js:20786
+#: admin/react/src/components/Dashboard/Candidates.js:404
+#: admin/react/src/components/JobCandidates/Candidates.js:27
+#: admin/react/src/components/JobCandidates/index.js:535
+#: admin/react/src/components/JobCandidates/index.js:639
+msgid "Name"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:141
+#: admin/assets/dist/react/easyjobs.js:20073
+#: admin/react/src/components/JobCandidates/Candidates.js:28
+msgid "Score"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:145
+#: admin/assets/dist/react/easyjobs.js:20075
+#: admin/react/src/components/JobCandidates/Candidates.js:30
+msgid "Date"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:151
+#: admin/assets/dist/react/easyjobs.js:20077
+#: admin/react/src/components/JobCandidates/Candidates.js:32
+msgid "Stage"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:152
+#: admin/assets/dist/react/easyjobs.js:20079
+#: admin/react/src/components/JobCandidates/Candidates.js:33
+msgid "Rating"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:204
+#: admin/assets/dist/react/easyjobs.js:9187
+#: admin/assets/dist/react/easyjobs.js:20136
+#: admin/react/src/components/Candidate/index.js:377
+#: admin/react/src/components/JobCandidates/Candidates.js:112
+msgid "No candidates found"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:242
+#: admin/partials/easyjobs-candidates-display.php:278
+#: admin/assets/dist/react/easyjobs.js:10132
+#: admin/assets/dist/react/easyjobs.js:20707
+#: admin/assets/dist/react/easyjobs.js:20788
+#: admin/react/src/components/Dashboard/Candidates.js:407
+#: admin/react/src/components/JobCandidates/index.js:538
+#: admin/react/src/components/JobCandidates/index.js:642
+msgid "Email"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:246
+#: admin/partials/easyjobs-candidates-display.php:285
+#: admin/assets/dist/react/easyjobs.js:10139
+#: admin/assets/dist/react/easyjobs.js:20714
+#: admin/assets/dist/react/easyjobs.js:20797
+#: admin/react/src/components/Dashboard/Candidates.js:411
+#: admin/react/src/components/JobCandidates/index.js:542
+#: admin/react/src/components/JobCandidates/index.js:649
+msgid "Actions"
+msgstr ""
+
+#: admin/partials/easyjobs-candidates-display.php:281
+#: admin/assets/dist/react/easyjobs.js:20790
+#: admin/react/src/components/JobCandidates/index.js:645
+msgid "Updated on"
+msgstr ""
+
+#: admin/partials/easyjobs-dashboard-display.php:34
+#: admin/assets/dist/react/easyjobs.js:10223
+#: admin/react/src/components/Dashboard/Counters.js:24
+msgid "Active Candidates"
+msgstr ""
+
+#: admin/partials/easyjobs-dashboard-display.php:46
+#: admin/assets/dist/react/easyjobs.js:10234
+#: admin/react/src/components/Dashboard/Counters.js:39
+msgid "Active Jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-dashboard-display.php:70
+#: admin/assets/dist/react/easyjobs.js:10257
+#: admin/react/src/components/Dashboard/Counters.js:74
+msgid "Team Member"
+msgstr ""
+
+#: admin/partials/easyjobs-dashboard-display.php:81
+msgid "Recent Applications"
+msgstr ""
+
+#: admin/partials/easyjobs-dashboard-display.php:118
+msgid "Recent Jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-dashboard-display.php:162
+msgid "0 applied"
+msgstr ""
+
+#: admin/partials/easyjobs-dashboard-display.php:173
+#: includes/class-easyjobs-helper.php:437
+#: includes/class-easyjobs-helper.php:457
+#: admin/assets/dist/react/easyjobs.js:14309
+#: admin/assets/dist/react/easyjobs.js:14665
+#: admin/react/src/components/Job/AllJobs/index.js:261
+#: admin/react/src/components/Job/AllJobs/Status.js:40
+msgid "Active"
+msgstr ""
+
+#: admin/partials/easyjobs-dashboard-display.php:176
+#: admin/partials/easyjobs-jobs-display.php:77
+#: admin/partials/easyjobs-jobs-display.php:235
+#: admin/partials/easyjobs-jobs-display.php:358
+#: includes/elementor/trait-easyjobs-elementor-template.php:274
+#: public/partials-blocks/classic/list.php:138
+#: public/partials-blocks/default/list.php:105
+#: public/partials/classic/list.php:133
+#: public/partials/default/list.php:144
+#: admin/assets/dist/react/easyjobs.js:14305
+#: admin/assets/dist/react/easyjobs.js:14673
+#: admin/react/src/components/Job/AllJobs/index.js:271
+#: admin/react/src/components/Job/AllJobs/Status.js:34
+#: blocks/blocks/job-list/src/components/themes/classic.js:125
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:5590
+msgid "Expired"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:16
+msgid "Published jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:18
+#: admin/assets/dist/react/easyjobs.js:14433
+#: admin/react/src/components/Job/AllJobs/index.js:76
+msgid "Draft jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:21
+#: admin/assets/dist/react/easyjobs.js:14436
+#: admin/react/src/components/Job/AllJobs/index.js:80
+msgid "Archived jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:104
+#: admin/partials/easyjobs-jobs-display.php:254
+#: admin/partials/easyjobs-jobs-display.php:369
+#: admin/assets/dist/react/easyjobs.js:13690
+#: admin/react/src/components/Job/AllJobs/Controls.js:66
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:119
+#: admin/assets/dist/react/easyjobs.js:13732
+#: admin/react/src/components/Job/AllJobs/Controls.js:112
+msgid "View"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:122
+#: admin/partials/easyjobs-jobs-display.php:262
+#: admin/partials/easyjobs-jobs-display.php:377
+#: admin/assets/dist/react/easyjobs.js:13699
+#: admin/assets/dist/react/easyjobs.js:13740
+#: admin/react/src/components/Job/AllJobs/Controls.js:78
+#: admin/react/src/components/Job/AllJobs/Controls.js:123
+msgid "Duplicate"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:125
+#: admin/partials/easyjobs-jobs-display.php:270
+#: admin/partials/easyjobs-jobs-display.php:385
+#: admin/assets/dist/react/easyjobs.js:13710
+#: admin/assets/dist/react/easyjobs.js:13770
+#: admin/react/src/components/Job/AllJobs/Controls.js:90
+#: admin/react/src/components/Job/AllJobs/Controls.js:157
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:131
+#: admin/assets/dist/react/easyjobs.js:13782
+#: admin/react/src/components/Job/AllJobs/Controls.js:171
+msgid "Share"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:135
+#: admin/assets/dist/react/easyjobs.js:13791
+#: admin/react/src/components/Job/AllJobs/Controls.js:179
+msgid "facebook"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:138
+#: admin/assets/dist/react/easyjobs.js:13798
+#: admin/react/src/components/Job/AllJobs/Controls.js:187
+msgid "linkedin"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:141
+#: admin/assets/dist/react/easyjobs.js:13805
+#: admin/react/src/components/Job/AllJobs/Controls.js:195
+msgid "twitter"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:160
+#: admin/partials/easyjobs-jobs-display.php:285
+#: admin/partials/easyjobs-jobs-display.php:400
+#: admin/assets/dist/react/easyjobs.js:14228
+#: admin/react/src/components/Job/AllJobs/Jobs.js:235
+msgid "Post Date: "
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:163
+#: admin/partials/easyjobs-jobs-display.php:288
+#: admin/partials/easyjobs-jobs-display.php:403
+#: admin/assets/dist/react/easyjobs.js:14230
+#: admin/react/src/components/Job/AllJobs/Jobs.js:238
+msgid "Expiry Date: "
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:168
+#: admin/partials/easyjobs-jobs-display.php:293
+#: admin/partials/easyjobs-jobs-display.php:408
+#: admin/assets/dist/react/easyjobs.js:14232
+#: admin/react/src/components/Job/AllJobs/Jobs.js:244
+msgid "Applied"
+msgstr ""
+
+#: admin/partials/easyjobs-jobs-display.php:217
+#: admin/partials/easyjobs-jobs-display.php:340
+#: admin/partials/easyjobs-jobs-display.php:455
+#: admin/partials/easyjobs-jobs-display.php:462
+#: public/partials-blocks/classic/list.php:148
+#: public/partials-blocks/classic/list.php:157
+#: public/partials-blocks/default/list.php:125
+#: public/partials-blocks/default/list.php:133
+#: public/partials-blocks/elegant/list.php:156
+#: public/partials/classic/list.php:142
+#: public/partials/classic/list.php:151
+#: public/partials/default/list.php:163
+#: public/partials/default/list.php:171
+#: public/partials/elegant/list.php:152
+#: admin/assets/dist/react/easyjobs.js:10438
+#: admin/assets/dist/react/easyjobs.js:14246
+#: admin/react/src/components/Dashboard/RecentJobs.js:160
+#: admin/react/src/components/Job/AllJobs/Jobs.js:265
+msgid "No jobs found."
+msgstr ""
+
+#: admin/partials/easyjobs-pipeline-display.php:27
+#: admin/assets/dist/react/easyjobs.js:22492
+#: admin/react/src/components/Pipeline/PipelineTopOptions.js:32
+msgid "Job Menu"
+msgstr ""
+
+#: admin/partials/easyjobs-pipeline-display.php:30
+#: admin/assets/dist/react/easyjobs.js:22498
+#: admin/react/src/components/Pipeline/PipelineTopOptions.js:39
+msgid "All jobs"
+msgstr ""
+
+#: admin/partials/easyjobs-pipeline-display.php:38
+#: admin/assets/dist/react/easyjobs.js:22509
+#: admin/react/src/components/Pipeline/PipelineTopOptions.js:57
+msgid "Edit Pipeline"
+msgstr ""
+
+#: admin/partials/easyjobs-pipeline-display.php:43
+#: admin/assets/dist/react/easyjobs.js:22519
+#: admin/react/src/components/Pipeline/PipelineTopOptions.js:69
+msgid "Move To Stage"
+msgstr ""
+
+#: admin/partials/easyjobs-pipeline-display.php:133
+#: admin/partials/easyjobs-pipeline-display.php:198
+msgid "Years"
+msgstr ""
+
+#: blocks/includes/class-scripts.php:243
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1315
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1739
+msgid "No Jobs Found"
+msgstr ""
+
+#: blocks/includes/class-scripts.php:383
+#: blocks/blocks/job-header/src/components/inspector.js:110
+#: blocks/blocks/job-landing/src/components/inspector.js:76
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1105
+#: blocks/dist/index.js:2475
+msgid "EasyJobs"
+msgstr ""
+
+#: includes/class-easyjobs-helper.php:432
+#: admin/assets/dist/react/easyjobs.js:14284
+#: admin/react/src/components/Job/AllJobs/Status.js:9
+msgid "Draft"
+msgstr ""
+
+#: includes/class-easyjobs-helper.php:442
+#: admin/assets/dist/react/easyjobs.js:14289
+#: admin/react/src/components/Job/AllJobs/Status.js:15
+msgid "Archived"
+msgstr ""
+
+#: includes/class-easyjobs-helper.php:447
+#: admin/assets/dist/react/easyjobs.js:14294
+#: admin/react/src/components/Job/AllJobs/Status.js:21
+msgid "Deleted"
+msgstr ""
+
+#: includes/class-easyjobs-helper.php:452
+#: admin/assets/dist/react/easyjobs.js:14299
+#: admin/react/src/components/Job/AllJobs/Status.js:27
+msgid "Republished"
+msgstr ""
+
+#: includes/class-easyjobs-helper.php:982
+#: includes/class-easyjobs-helper.php:1028
+#: includes/class-easyjobs-helper.php:1104
+#: public/class-easyjobs-public.php:376
+msgid "Submit"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:36
+msgid "Easyjobs Job List"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:134
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:161
+msgid "Warning!"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:142
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:169
+msgid "Please "
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:143
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:170
+msgid "Connect your EasyJobs Account"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:143
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:170
+msgid "from <b>WordPress Dashboard > EasyJobs > Get Started > Sign In / Connect via API</b>. For more info, "
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:143
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:170
+msgid "Click here"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:183
+msgid "Hide Title"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:185
+#: includes/elementor/class-easyjobs-elementor-job-list.php:209
+#: includes/elementor/class-easyjobs-elementor-job-list.php:300
+#: includes/elementor/class-easyjobs-elementor-job-list.php:335
+#: includes/elementor/class-easyjobs-elementor-job-list.php:347
+#: includes/elementor/class-easyjobs-elementor-job-list.php:359
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:214
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:225
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:267
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:308
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:319
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:352
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:364
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:376
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:450
+#: admin/assets/dist/react/easyjobs.js:25031
+#: admin/react/src/components/Settings/tabs/ApplySettingsTab.js:479
+msgid "Yes"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:186
+#: includes/elementor/class-easyjobs-elementor-job-list.php:210
+#: includes/elementor/class-easyjobs-elementor-job-list.php:301
+#: includes/elementor/class-easyjobs-elementor-job-list.php:336
+#: includes/elementor/class-easyjobs-elementor-job-list.php:348
+#: includes/elementor/class-easyjobs-elementor-job-list.php:360
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:215
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:226
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:268
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:309
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:320
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:353
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:365
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:377
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:451
+#: admin/assets/dist/react/easyjobs.js:25027
+#: admin/react/src/components/Settings/tabs/ApplySettingsTab.js:472
+msgid "No"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:197
+msgid "Type your title here"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:207
+msgid "Hide Icon"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:218
+msgid "Icon"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:229
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:503
+msgid "Apply Button Text"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:231
+#: includes/elementor/class-easyjobs-elementor-job-list.php:232
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:505
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:506
+#: public/partials/default/list.php:150
+msgid "Apply"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:251
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:401
+msgid "Order BY"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:256
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:406
+msgid "Published Date"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:257
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:407
+msgid "Expired Date"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:258
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:408
+msgid "Created Date"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:266
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:416
+msgid "Sort BY"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:270
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:420
+#: blocks/blocks/job-list/src/components/constants.js:11
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3009
+msgid "ASC"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:271
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:421
+#: blocks/blocks/job-list/src/components/constants.js:12
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3010
+msgid "DESC"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:279
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:429
+msgid "Show Jobs"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:298
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:448
+msgid "Show Open Job Only"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:325
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:342
+msgid "Please make sure to enable the Show job filter and location filter options on company page from "
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:385
+#: includes/elementor/class-easyjobs-elementor-job-list.php:633
+#: includes/elementor/class-easyjobs-elementor-job-list.php:892
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:539
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:775
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1317
+#: blocks/blocks/job-header/src/components/inspector.js:240
+#: blocks/blocks/job-list/src/components/inspector.js:389
+#: blocks/blocks/job-list/src/components/inspector.js:651
+#: blocks/blocks/job-list/src/components/inspector.js:952
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1235
+#: blocks/dist/index.js:3580
+#: blocks/dist/index.js:3842
+#: blocks/dist/index.js:4143
+msgid "Background"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:394
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1170
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:548
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:903
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1595
+#: blocks/blocks/job-header/src/components/inspector.js:256
+#: blocks/blocks/job-header/src/components/inspector.js:480
+#: blocks/blocks/job-list/src/components/inspector.js:405
+#: blocks/blocks/job-list/src/components/inspector.js:1201
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1251
+#: blocks/dist/index.js:1475
+#: blocks/dist/index.js:3596
+#: blocks/dist/index.js:4392
+msgid "Alignment"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:403
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1179
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:557
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:911
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1604
+msgid "Center"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:419
+#: includes/elementor/class-easyjobs-elementor-job-list.php:589
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:573
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:731
+#: blocks/blocks/job-header/src/components/inspector.js:289
+#: blocks/blocks/job-list/src/components/inspector.js:438
+#: blocks/blocks/job-list/src/components/inspector.js:557
+#: blocks/blocks/job-list/src/components/inspector.js:590
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1284
+#: blocks/dist/index.js:3629
+#: blocks/dist/index.js:3748
+#: blocks/dist/index.js:3781
+msgid "Width"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:449
+#: includes/elementor/class-easyjobs-elementor-job-list.php:516
+#: includes/elementor/class-easyjobs-elementor-job-list.php:925
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:603
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:658
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1350
+#: blocks/blocks/job-header/src/components/inspector.js:306
+#: blocks/blocks/job-list/src/components/inspector.js:465
+#: blocks/blocks/job-list/src/components/inspector.js:499
+#: blocks/blocks/job-list/src/components/inspector.js:993
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1301
+#: blocks/dist/index.js:3656
+#: blocks/dist/index.js:3690
+#: blocks/dist/index.js:4184
+msgid "Margin"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:465
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:619
+#: blocks/blocks/job-list/src/components/inspector.js:475
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3666
+msgid "Form Padding"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:481
+#: includes/elementor/class-easyjobs-elementor-job-list.php:946
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1278
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1073
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1371
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1703
+msgid "Border Radius"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:508
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:650
+#: blocks/blocks/job-list/src/components/inspector.js:490
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3681
+msgid "Section"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:533
+#: includes/elementor/class-easyjobs-elementor-job-list.php:912
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1300
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:675
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1094
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1337
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1725
+#: blocks/blocks/job-header/src/components/inspector.js:316
+#: blocks/blocks/job-header/src/components/inspector.js:465
+#: blocks/blocks/job-list/src/components/inspector.js:509
+#: blocks/blocks/job-list/src/components/inspector.js:983
+#: blocks/blocks/job-list/src/components/inspector.js:1329
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1311
+#: blocks/dist/index.js:1460
+#: blocks/dist/index.js:3700
+#: blocks/dist/index.js:4174
+#: blocks/dist/index.js:4520
+msgid "Padding"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:550
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:692
+#: blocks/blocks/job-list/src/components/inspector.js:517
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3708
+msgid "Section Heading"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:559
+#: includes/elementor/class-easyjobs-elementor-job-list.php:644
+#: includes/elementor/class-easyjobs-elementor-job-list.php:978
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1023
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1055
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1087
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1118
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:701
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:786
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:871
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:937
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1403
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1448
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1480
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1512
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1543
+#: blocks/blocks/job-footer/src/components/inspector.js:128
+#: blocks/blocks/job-header/src/components/inspector.js:343
+#: blocks/blocks/job-header/src/components/inspector.js:376
+#: blocks/blocks/job-header/src/components/inspector.js:409
+#: blocks/blocks/job-header/src/components/inspector.js:512
+#: blocks/blocks/job-list/src/components/inspector.js:524
+#: blocks/blocks/job-list/src/components/inspector.js:663
+#: blocks/blocks/job-list/src/components/inspector.js:1014
+#: blocks/blocks/job-list/src/components/inspector.js:1057
+#: blocks/blocks/job-list/src/components/inspector.js:1090
+#: blocks/blocks/job-list/src/components/inspector.js:1123
+#: blocks/blocks/job-list/src/components/inspector.js:1156
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:359
+#: blocks/dist/index.js:1338
+#: blocks/dist/index.js:1371
+#: blocks/dist/index.js:1404
+#: blocks/dist/index.js:1507
+#: blocks/dist/index.js:3715
+#: blocks/dist/index.js:3854
+#: blocks/dist/index.js:4205
+#: blocks/dist/index.js:4248
+#: blocks/dist/index.js:4281
+#: blocks/dist/index.js:4314
+#: blocks/dist/index.js:4347
+msgid "Color"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:572
+#: includes/elementor/class-easyjobs-elementor-job-list.php:706
+#: includes/elementor/class-easyjobs-elementor-job-list.php:797
+#: includes/elementor/class-easyjobs-elementor-job-list.php:991
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1037
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1069
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1100
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1134
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1162
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:714
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:854
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:884
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:955
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:982
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1132
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1223
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1416
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1462
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1494
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1525
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1559
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1587
+#: blocks/blocks/job-footer/src/components/inspector.js:140
+#: blocks/blocks/job-header/src/components/inspector.js:355
+#: blocks/blocks/job-header/src/components/inspector.js:388
+#: blocks/blocks/job-header/src/components/inspector.js:433
+#: blocks/blocks/job-header/src/components/inspector.js:524
+#: blocks/blocks/job-list/src/components/inspector.js:536
+#: blocks/blocks/job-list/src/components/inspector.js:737
+#: blocks/blocks/job-list/src/components/inspector.js:846
+#: blocks/blocks/job-list/src/components/inspector.js:1026
+#: blocks/blocks/job-list/src/components/inspector.js:1069
+#: blocks/blocks/job-list/src/components/inspector.js:1102
+#: blocks/blocks/job-list/src/components/inspector.js:1135
+#: blocks/blocks/job-list/src/components/inspector.js:1168
+#: blocks/blocks/job-list/src/components/inspector.js:1189
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:371
+#: blocks/dist/index.js:1350
+#: blocks/dist/index.js:1383
+#: blocks/dist/index.js:1428
+#: blocks/dist/index.js:1519
+#: blocks/dist/index.js:3727
+#: blocks/dist/index.js:3928
+#: blocks/dist/index.js:4037
+#: blocks/dist/index.js:4217
+#: blocks/dist/index.js:4260
+#: blocks/dist/index.js:4293
+#: blocks/dist/index.js:4326
+#: blocks/dist/index.js:4359
+#: blocks/dist/index.js:4380
+msgid "Typography"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:580
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:722
+#: blocks/blocks/job-list/src/components/inspector.js:550
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3741
+msgid "Section Icon"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:611
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:753
+#: blocks/blocks/job-list/src/components/inspector.js:604
+#: blocks/blocks/job-list/src/components/inspector.js:637
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3795
+#: blocks/dist/index.js:3828
+msgid "Height"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:657
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:797
+#: blocks/blocks/job-list/src/components/inspector.js:675
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3866
+msgid "Icon Size"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:696
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1122
+#: blocks/blocks/job-list/src/components/inspector.js:730
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3921
+msgid "Submit Button"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:716
+#: includes/elementor/class-easyjobs-elementor-job-list.php:807
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1197
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:992
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1142
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1233
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1622
+#: blocks/blocks/job-list/src/components/inspector.js:752
+#: blocks/blocks/job-list/src/components/inspector.js:861
+#: blocks/blocks/job-list/src/components/inspector.js:1236
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3943
+#: blocks/dist/index.js:4052
+#: blocks/dist/index.js:4427
+msgid "Normal"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:723
+#: includes/elementor/class-easyjobs-elementor-job-list.php:756
+#: includes/elementor/class-easyjobs-elementor-job-list.php:814
+#: includes/elementor/class-easyjobs-elementor-job-list.php:847
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1204
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1239
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:842
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:999
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1034
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1149
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1182
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1240
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1273
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1629
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1664
+#: blocks/blocks/job-list/src/components/inspector.js:778
+#: blocks/blocks/job-list/src/components/inspector.js:808
+#: blocks/blocks/job-list/src/components/inspector.js:887
+#: blocks/blocks/job-list/src/components/inspector.js:1262
+#: blocks/blocks/job-list/src/components/inspector.js:1292
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3969
+#: blocks/dist/index.js:3999
+#: blocks/dist/index.js:4078
+#: blocks/dist/index.js:4453
+#: blocks/dist/index.js:4483
+msgid "Text Color"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:749
+#: includes/elementor/class-easyjobs-elementor-job-list.php:840
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1232
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1027
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1175
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1266
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1657
+#: blocks/blocks/job-list/src/components/inspector.js:756
+#: blocks/blocks/job-list/src/components/inspector.js:865
+#: blocks/blocks/job-list/src/components/inspector.js:1240
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3947
+#: blocks/dist/index.js:4056
+#: blocks/dist/index.js:4431
+msgid "Hover"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:787
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1213
+#: blocks/blocks/job-list/src/components/inspector.js:839
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:4030
+msgid "Reset Button"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:901
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1326
+msgid "Separator Color "
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:969
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1394
+#: public/partials/default/details.php:85
+#: admin/assets/dist/react/easyjobs.js:17729
+#: admin/react/src/components/Job/tabs/BasicInfoTab.js:778
+#: blocks/blocks/job-list/src/components/inspector.js:1007
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:4198
+msgid "Job Title"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:999
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1424
+#: blocks/blocks/job-list/src/components/inspector.js:1042
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:4233
+msgid "Space"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1046
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1471
+#: blocks/blocks/job-list/src/components/inspector.js:1083
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:4274
+msgid "Job Location"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1078
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1503
+#: blocks/blocks/job-list/src/components/inspector.js:1116
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:4307
+msgid "Job Deadline"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1109
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1534
+#: blocks/blocks/job-list/src/components/inspector.js:1149
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:4340
+msgid "Job Vacancies"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-job-list.php:1152
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:1577
+#: blocks/blocks/job-list/src/components/inspector.js:1182
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:4373
+msgid "Job Apply Button"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:36
+msgid "Easyjobs Landing Page"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:212
+msgid "Hide Company Details"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:223
+#: blocks/blocks/job-header/src/components/inspector.js:116
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1111
+msgid "Change Cover Image"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:237
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:278
+msgid "Upload Cover Image"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:265
+#: blocks/blocks/job-header/src/components/inspector.js:162
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1157
+msgid "Change Logo"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:306
+#: blocks/blocks/job-landing/src/components/inspector.js:90
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:2489
+msgid "Hide Job List"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:317
+msgid "Hide Company Gallery"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:465
+msgid "Text Change"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:476
+msgid "Enter Company Name"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:483
+msgid "Website Link Text"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:485
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:486
+#: public/partials-blocks/classic/info.php:142
+#: public/partials-blocks/default/info.php:68
+#: public/partials-blocks/elegant/info.php:62
+#: public/partials/classic/landing.php:139
+#: public/partials/default/landing.php:65
+#: public/partials/elegant/landing.php:60
+#: blocks/blocks/job-header/src/components/attributes.js:61
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:746
+msgid "Explore company website"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:493
+msgid "Job List Section Title"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:495
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:496
+msgid "Open job positions"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:513
+msgid "Gallery Section Title"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:515
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:516
+#: blocks/blocks/job-footer/src/components/attributes.js:29
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:139
+msgid "Life at"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:826
+#: blocks/blocks/job-header/src/components/inspector.js:331
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1326
+msgid "Company Info"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:862
+#: public/partials/default/details.php:135
+#: blocks/blocks/job-header/src/components/inspector.js:369
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1364
+msgid "Location"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:894
+#: public/partials/classic/details.php:69
+#: public/partials/default/details.php:339
+#: public/partials/elegant/details.php:158
+#: blocks/blocks/job-header/src/components/inspector.js:473
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1468
+msgid "Description"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:919
+msgid "Justified"
+msgstr ""
+
+#: includes/elementor/class-easyjobs-elementor-landingpage.php:972
+#: blocks/blocks/job-header/src/components/inspector.js:402
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1397
+msgid "Website Link Button"
+msgstr ""
+
+#: includes/elementor/trait-easyjobs-elementor-template.php:194
+#: includes/elementor/trait-easyjobs-elementor-template.php:290
+msgid "No open jobs right now"
+msgstr ""
+
+#: includes/elementor/trait-easyjobs-elementor-template.php:246
+msgid "Anywhere (Remote)"
+msgstr ""
+
+#: includes/elementor/trait-easyjobs-elementor-template.php:250
+msgid "N/A"
+msgstr ""
+
+#: public/includes/class-easyjobs-shortcode.php:79
+msgid "Api is not connected"
+msgstr ""
+
+#: public/partials-blocks/classic/list.php:100
+#: public/partials-blocks/default/list.php:68
+#: public/partials-blocks/elegant/list.php:102
+#: public/partials/classic/details.php:31
+#: public/partials/classic/list.php:96
+#: public/partials/default/details.php:139
+#: public/partials/default/list.php:111
+#: public/partials/elegant/details.php:41
+#: public/partials/elegant/list.php:100
+msgid "Anywhere"
+msgstr ""
+
+#: public/partials-blocks/classic/list.php:126
+#: public/partials/classic/list.php:122
+#: blocks/blocks/job-list/src/components/themes/classic.js:98
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:5563
+msgid "No of vacancies "
+msgstr ""
+
+#: public/partials-blocks/classic/list.php:136
+#: public/partials/classic/list.php:131
+msgid "Deadline:"
+msgstr ""
+
+#: public/partials-blocks/default/footer.php:65
+#: public/partials-blocks/default/info.php:153
+#: public/partials/default/landing.php:205
+msgid "Failed to connect api"
+msgstr ""
+
+#: public/partials-blocks/default/list.php:100
+#: public/partials/default/list.php:139
+msgid "No of vacancies: "
+msgstr ""
+
+#: public/partials-blocks/elegant/list.php:132
+#: public/partials/classic/details.php:336
+#: public/partials/elegant/details.php:73
+#: public/partials/elegant/list.php:130
+#: blocks/blocks/job-list/src/components/themes/elegant.js:113
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:5987
+msgid "No of vacancies"
+msgstr ""
+
+#: public/partials-blocks/elegant/list.php:150
+#: public/partials/elegant/list.php:146
+msgid "No jobs found"
+msgstr ""
+
+#: public/partials/classic/details.php:304
+#: public/partials/classic/list.php:127
+msgid "Apply Now"
+msgstr ""
+
+#: public/partials/classic/details.php:309
+#: public/partials/default/details.php:168
+#: public/partials/elegant/details.php:96
+msgid "Deadline"
+msgstr ""
+
+#: public/partials/classic/details.php:316
+#: public/partials/default/details.php:95
+#: admin/assets/dist/react/easyjobs.js:8004
+msgid "Experience"
+msgstr ""
+
+#: public/partials/classic/details.php:331
+#: public/partials/default/details.php:151
+#: public/partials/elegant/details.php:86
+msgid "Job Type"
+msgstr ""
+
+#: public/partials/classic/details.php:343
+msgid "Office Time"
+msgstr ""
+
+#: public/partials/classic/details.php:361
+msgid "Share on"
+msgstr ""
+
+#: public/partials/classic/details.php:400
+msgid "Company Description"
+msgstr ""
+
+#: public/partials/default/details.php:73
+msgid "No location found"
+msgstr ""
+
+#: public/partials/default/details.php:105
+msgid "Vacancies"
+msgstr ""
+
+#: public/partials/default/details.php:125
+msgid "Office time"
+msgstr ""
+
+#: public/partials/default/details.php:178
+#: public/partials/elegant/details.php:92
+#: public/partials/elegant/list.php:124
+msgid "Apply now"
+msgstr ""
+
+#: public/partials/default/details.php:184
+msgid "Share On: "
+msgstr ""
+
+#: public/partials/default/details.php:237
+msgid "Company Description "
+msgstr ""
+
+#: public/partials/default/details.php:314
+#: public/partials/elegant/details.php:145
+msgid "Skills "
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:7890
+#: admin/react/src/components/Candidate/Details/Tabs/Application.js:12
+msgid "COVER LETTER"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:7973
+msgid "AI SCORE"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:8026
+msgid "Total"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:8198
+#: admin/react/src/components/Candidate/Details/Tabs/Resume.js:12
+msgid "RESUME"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9079
+#: admin/react/src/components/Candidate/index.js:197
+msgid "Search Candidates Name . . ."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9108
+#: admin/react/src/components/Candidate/index.js:230
+msgid "Select Rating"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9112
+#: admin/react/src/components/Candidate/index.js:233
+msgid "5"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9114
+#: admin/react/src/components/Candidate/index.js:234
+msgid "4"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9116
+#: admin/react/src/components/Candidate/index.js:235
+msgid "3"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9118
+#: admin/react/src/components/Candidate/index.js:236
+msgid "2"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9120
+#: admin/react/src/components/Candidate/index.js:237
+msgid "1"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9122
+#: admin/react/src/components/Candidate/index.js:238
+msgid "0"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9133
+#: admin/react/src/components/Candidate/index.js:251
+msgid "Select Pipeline"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9180
+#: admin/assets/dist/react/easyjobs.js:10004
+#: admin/react/src/components/Candidate/index.js:322
+#: admin/react/src/components/Dashboard/Candidates.js:175
+msgid "View Details"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9185
+#: admin/assets/dist/react/easyjobs.js:20132
+#: admin/react/src/components/Candidate/index.js:373
+#: admin/react/src/components/JobCandidates/Candidates.js:107
+msgid "Loading candidates..."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9752
+#: admin/react/src/components/Dashboard/Analytics.js:199
+msgid "No Analytics Data."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:9977
+#: admin/react/src/components/Dashboard/Candidates.js:133
+msgid "Recent Applicants"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:10032
+#: admin/react/src/components/Dashboard/Candidates.js:261
+msgid "See All"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:10052
+#: admin/react/src/components/Dashboard/Candidates.js:293
+msgid "Invite Candidate"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:10055
+#: admin/react/src/components/Dashboard/Candidates.js:301
+msgid "Share Jobs"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:10059
+#: admin/react/src/components/Dashboard/Candidates.js:310
+msgid "Read Blog"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:10062
+#: admin/react/src/components/Dashboard/Candidates.js:318
+msgid "No applicants found."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:10627
+#: admin/react/src/components/Dashboard/index.js:111
+msgid "Loading data..."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:11870
+#: admin/react/src/components/Evaluation/Assessment/index.js:205
+msgid "Loading Assessments..."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:11875
+#: admin/react/src/components/Evaluation/Assessment/index.js:209
+msgid "No Assessment found."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:13534
+#: admin/react/src/components/Evaluation/Questions/index.js:259
+msgid "Loading Questions..."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:13539
+#: admin/react/src/components/Evaluation/Questions/index.js:263
+msgid "No Questions found."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:13750
+#: admin/react/src/components/Job/AllJobs/Controls.js:134
+msgid "Mark as Expire"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:13760
+#: admin/react/src/components/Job/AllJobs/Controls.js:146
+msgid "Extend Expiry"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:14244
+#: admin/react/src/components/Job/AllJobs/Jobs.js:263
+msgid "Loading jobs..."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:14427
+#: admin/react/src/components/Job/AllJobs/index.js:68
+msgid "All Jobs"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:14676
+#: admin/react/src/components/Job/AllJobs/index.js:282
+msgid "Create A new Job"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:15368
+#: admin/react/src/components/Job/CreateJob.js:468
+msgid "Create a New Job"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:16125
+#: admin/react/src/components/Job/EditJob.js:476
+msgid "Edit job"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:17738
+#: admin/react/src/components/Job/tabs/BasicInfoTab.js:790
+msgid "Enter your job title..."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:17748
+#: admin/react/src/components/Job/tabs/BasicInfoTab.js:799
+msgid "TIPS:"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:17748
+#: admin/react/src/components/Job/tabs/BasicInfoTab.js:800
+msgid "The job title is essential for your job post to attract the best candidates. Please type your job title. (Example: Senior Executive)"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:20906
+#: admin/react/src/components/Landing/ApiKey.js:21
+msgid "API Key"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:20910
+#: admin/react/src/components/Landing/ApiKey.js:26
+msgid "Enter your API key"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24118
+#: admin/react/src/components/Settings/tabs/AITab.js:64
+msgid "Show AI Score"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24137
+#: admin/react/src/components/Settings/tabs/AITab.js:87
+msgid "Run batch process for old candidates"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24148
+#: admin/react/src/components/Settings/tabs/AITab.js:100
+msgid "Run process"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24232
+#: admin/react/src/components/Settings/tabs/ApiKeyTab.js:23
+msgid "Api disconnected successfully."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24237
+#: admin/react/src/components/Settings/tabs/ApiKeyTab.js:29
+msgid "Api disconnect failed, please try again."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24246
+#: admin/react/src/components/Settings/tabs/ApiKeyTab.js:39
+msgid "Api key saved successfully."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24286
+#: admin/react/src/components/Settings/tabs/ApiKeyTab.js:78
+msgid "API Key Setup"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24298
+#: admin/react/src/components/Settings/tabs/ApiKeyTab.js:85
+msgid "API key"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24312
+#: admin/react/src/components/Settings/tabs/ApiKeyTab.js:101
+msgid "Change API key"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24322
+#: admin/react/src/components/Settings/tabs/ApiKeyTab.js:122
+msgid "Disconnect"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24327
+#: admin/react/src/components/Settings/tabs/ApiKeyTab.js:129
+msgid "Update API key"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24331
+#: admin/react/src/components/Settings/tabs/ApiKeyTab.js:136
+msgid "Cancel"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24547
+#: admin/react/src/components/Settings/tabs/ApplySettingsTab.js:107
+msgid "Please select a field type."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24551
+#: admin/react/src/components/Settings/tabs/ApplySettingsTab.js:110
+msgid "Please provide field name."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24555
+#: admin/react/src/components/Settings/tabs/ApplySettingsTab.js:113
+msgid "Field name should not be more than 50 character."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:24559
+#: admin/react/src/components/Settings/tabs/ApplySettingsTab.js:119
+msgid "Please select at least one file type."
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25017
+#: admin/react/src/components/Settings/tabs/ApplySettingsTab.js:455
+msgid "Confirmation"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25019
+#: admin/react/src/components/Settings/tabs/ApplySettingsTab.js:460
+msgid "Are you sure, you want to delete this field?"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25465
+#: admin/assets/dist/react/easyjobs.js:25474
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:248
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:255
+msgid "Please select country"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25479
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:259
+msgid "Please select state"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25568
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:354
+msgid "Company Setup"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25598
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:383
+msgid "User Name / Company"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25612
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:399
+msgid "Mobile Number"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25650
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:449
+msgid "Country"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25671
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:471
+msgid "Select country"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25703
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:509
+msgid "City"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25730
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:539
+msgid "Postal Code"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25746
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:555
+msgid "Website URL"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25750
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:561
+msgid "Enter Website URL"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25780
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:600
+msgid "Language"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25814
+#: admin/assets/dist/react/easyjobs.js:25820
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:636
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:644
+msgid "Jobs per page"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25828
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:654
+msgid "Write Description"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25831
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:659
+msgid "Write company description here"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25838
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:666
+msgid "Company Benefits"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:25841
+#: admin/react/src/components/Settings/tabs/BasicInfoTab.js:671
+msgid "Write company benefits here"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:28538
+#: admin/react/src/components/Settings/tabs/TemplateTab.js:26
+msgid "Templates"
+msgstr ""
+
+#: admin/assets/dist/react/easyjobs.js:28580
+#: admin/react/src/components/Settings/tabs/TemplateTab.js:74
+msgid "No templates found"
+msgstr ""
+
+#: blocks/blocks/job-footer/src/components/attributes.js:13
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:123
+msgid "Desktop"
+msgstr ""
+
+#: blocks/blocks/job-footer/src/components/inspector.js:54
+#: blocks/blocks/job-header/src/components/inspector.js:90
+#: blocks/blocks/job-landing/src/components/inspector.js:56
+#: blocks/blocks/job-list/src/components/inspector.js:153
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:285
+#: blocks/dist/index.js:1085
+#: blocks/dist/index.js:2455
+#: blocks/dist/index.js:3344
+msgid "Content"
+msgstr ""
+
+#: blocks/blocks/job-footer/src/components/inspector.js:59
+#: blocks/blocks/job-header/src/components/inspector.js:95
+#: blocks/blocks/job-landing/src/components/inspector.js:61
+#: blocks/blocks/job-list/src/components/inspector.js:158
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:290
+#: blocks/dist/index.js:1090
+#: blocks/dist/index.js:2460
+#: blocks/dist/index.js:3349
+msgid "Style"
+msgstr ""
+
+#: blocks/blocks/job-footer/src/components/inspector.js:64
+#: blocks/blocks/job-header/src/components/inspector.js:100
+#: blocks/blocks/job-landing/src/components/inspector.js:66
+#: blocks/blocks/job-list/src/components/inspector.js:163
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:295
+#: blocks/dist/index.js:1095
+#: blocks/dist/index.js:2465
+#: blocks/dist/index.js:3354
+msgid "Advanced"
+msgstr ""
+
+#: blocks/blocks/job-footer/src/components/inspector.js:75
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:306
+msgid "Company Gallery"
+msgstr ""
+
+#: blocks/blocks/job-footer/src/components/inspector.js:96
+#: blocks/blocks/job-header/src/components/inspector.js:209
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:327
+#: blocks/dist/index.js:1204
+msgid "Text change"
+msgstr ""
+
+#: blocks/blocks/job-footer/src/components/inspector.js:116
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:347
+msgid "Gallery"
+msgstr ""
+
+#: blocks/blocks/job-footer/src/components/inspector.js:121
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:352
+msgid "Gallery Title"
+msgstr ""
+
+#: blocks/blocks/job-header/src/components/constants.js:23
+#: blocks/blocks/job-list/src/components/constants.js:44
+#: blocks/blocks/job-list/src/components/constants.js:48
+#: blocks/blocks/job-list/src/components/constants.js:52
+#: blocks/blocks/job-list/src/components/constants.js:56
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:894
+#: blocks/dist/index.js:3042
+#: blocks/dist/index.js:3046
+#: blocks/dist/index.js:3050
+#: blocks/dist/index.js:3054
+msgid "Fixed"
+msgstr ""
+
+#: blocks/blocks/job-header/src/components/inspector.js:143
+#: blocks/blocks/job-header/src/components/inspector.js:189
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1138
+#: blocks/dist/index.js:1184
+msgid "Upload Image"
+msgstr ""
+
+#: blocks/blocks/job-header/src/components/inspector.js:421
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:1416
+msgid "Hover Color"
+msgstr ""
+
+#: blocks/blocks/job-landing/src/components/inspector.js:82
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:2481
+msgid "Hide Job Header"
+msgstr ""
+
+#: blocks/blocks/job-landing/src/components/inspector.js:98
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:2497
+msgid "Hide Job Footer"
+msgstr ""
+
+#: blocks/blocks/job-landing/src/components/inspector.js:111
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:2510
+msgid "Cobined Block"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/constants.js:6
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3004
+msgid "Published date"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/constants.js:7
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3005
+msgid "Expired date"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/constants.js:8
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3006
+msgid "Created date"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:180
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3371
+msgid "Hide title"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:203
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3394
+msgid "Hide icon"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:240
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3431
+msgid "Show search by title"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:252
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3443
+msgid "Show search by category"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:264
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3455
+msgid "Show search by location"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:281
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3472
+msgid "Order by"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:292
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3483
+msgid "Sort by"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:303
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3494
+msgid "Show jobs"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:318
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3509
+msgid "Show open jobs only"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:330
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3521
+msgid "Show company name"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:342
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3533
+msgid "Show company address"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:354
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3545
+msgid "Show Deadline"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:366
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3557
+msgid "Show No of Vacancies"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:708
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:3899
+msgid "Size"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:917
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:4108
+msgid "Text Color h"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/inspector.js:967
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:4158
+msgid "Separator Color"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/themes/classic.js:121
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:5586
+msgid " Deadline:"
+msgstr ""
+
+#: blocks/blocks/job-list/src/components/themes/elegant.js:82
+#: blocks/dist/index.js:1
+#: blocks/dist/index.js:5956
+msgid " Anywhere"
+msgstr ""
+
+#: blocks/blocks/job-footer/block.json
+msgctxt "block title"
+msgid "Company Gallery"
+msgstr ""
+
+#: blocks/blocks/job-footer/block.json
+msgctxt "block description"
+msgid "Showcase work culture with team photos and office environment."
+msgstr ""
+
+#: blocks/blocks/job-header/block.json
+msgctxt "block title"
+msgid "Company Profile"
+msgstr ""
+
+#: blocks/blocks/job-header/block.json
+msgctxt "block description"
+msgid "Introduce your company with essential information and customize as necessary."
+msgstr ""
+
+#: blocks/blocks/job-landing/block.json
+msgctxt "block title"
+msgid "Career Page"
+msgstr ""
+
+#: blocks/blocks/job-landing/block.json
+msgctxt "block description"
+msgid "Customize your career page with a company profile, job list and company gallery for more personalization."
+msgstr ""
+
+#: blocks/blocks/job-list/block.json
+msgctxt "block title"
+msgid "Job List"
+msgstr ""
+
+#: blocks/blocks/job-list/block.json
+msgctxt "block description"
+msgid "Display job listings & customize how they appear on your career page."
+msgstr ""

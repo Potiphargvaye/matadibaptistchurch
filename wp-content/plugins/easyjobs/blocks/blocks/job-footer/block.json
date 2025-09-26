@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "easyjobs/job-footer",
+	"version": "0.1.0",
+	"title": "Company Gallery",
+	"category": "easyjobs",
+	"description": "Showcase work culture with team photos and office environment.",
+	"editorStyle": "ej-editor-style",
+	"supports": {
+		"anchor": true,
+		"align": ["wide", "full"]
+	},
+  	"textdomain": "easyjobs"
+}

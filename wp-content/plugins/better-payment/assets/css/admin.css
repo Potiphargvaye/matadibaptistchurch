@@ -1,0 +1,440 @@
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/css/admin.scss ***!
+  \***********************************************************************************************************************************************************************************/
+.swal2-popup {
+  width: 50em;
+  font-size: 0.8em;
+}
+
+.swal2-title {
+  font-size: 2.25em;
+}
+
+.swal2-content {
+  font-size: 1.75em;
+}
+
+.swal2-styled.swal2-confirm, .swal2-styled.swal2-cancel {
+  font-size: 1.5em;
+}
+
+/* Notice : Starts */
+.better-payment.notice.notice-info {
+  border-left-color: #6e58f7;
+}
+
+.wpnotice-content-wrapper .button {
+  text-transform: capitalize;
+}
+
+.wpdeveloper-review-notice {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 15px;
+  border-left: 4px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.wpdeveloper-review-notice:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wpdeveloper-notice-thumbnail {
+  width: 90px;
+  float: left;
+  padding: 5px;
+  text-align: center;
+  border-right: 4px solid transparent;
+}
+
+.wpdeveloper-notice-thumbnail img {
+  width: 72px;
+  opacity: 0.85;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.wpdeveloper-notice-thumbnail img:hover {
+  opacity: 1;
+}
+
+.wpdeveloper-update-notice .wpdeveloper-notice-thumbnail img,
+.wpdeveloper-update_400k-notice .wpdeveloper-notice-thumbnail img {
+  width: 32px;
+}
+
+.wpdeveloper-update-notice .wpdeveloper-notice-thumbnail,
+.wpdeveloper-update_400k-notice .wpdeveloper-notice-thumbnail {
+  width: auto;
+  padding: 7px;
+}
+
+.wpdeveloper-update-notice .wpdeveloper-notice-message,
+.wpdeveloper-update_400k-notice .wpdeveloper-notice-message {
+  padding: 5px 0;
+}
+
+.wpdeveloper-update-notice,
+.wpdeveloper-update_400k-notice {
+  border-color: #6648fe;
+  padding: 0;
+}
+
+a.ea-notice-cta {
+  background-color: #4d18ff;
+  background: linear-gradient(-30deg, #4d18ff, #9a7cff);
+  margin-top: 30px;
+  color: #fff;
+  padding: 8px 20px;
+  outline: none;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+a.ea-notice-cta:hover {
+  opacity: 0.85;
+}
+
+span.coupon-code {
+  background: #ebebeb;
+  padding: 5px 10px;
+  letter-spacing: 0.035em;
+}
+
+.eael-review-text {
+  overflow: hidden;
+}
+
+.eael-review-text h3 {
+  font-size: 24px;
+  margin: 0 0 5px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.eael-review-text p {
+  font-size: 13px;
+  margin: 0 0 5px;
+}
+
+.wpdeveloper-notice-link {
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+
+.wpdeveloper-notice-link li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.wpdeveloper-notice-link li a {
+  display: inline-block;
+  color: #10738b;
+  text-decoration: none;
+  padding-left: 26px;
+  position: relative;
+}
+
+.wpdeveloper-notice-link li a span {
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.wpdeveloper-notice-message {
+  padding: 10px 0;
+}
+
+.wpdeveloper-upsale-notice .wpdeveloper-notice-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.wpdeveloper-upsale-notice .wpdeveloper-notice-message + .notice-dismiss {
+  top: 10px;
+}
+
+.wpdeveloper-upsale-notice #plugin-install-core {
+  margin-left: 10px;
+}
+
+.notice.notice-has-thumbnail {
+  padding-left: 0;
+}
+
+.wpdeveloper-upsale-notice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wpdeveloper-upsale-notice .wpdeveloper-notice-thumbnail {
+  padding: 10px;
+  width: 40px;
+}
+
+.wpdeveloper-upsale-notice .wpdeveloper-notice-thumbnail img {
+  width: 32px;
+}
+
+.toplevel_page_eael-settings .wp-menu-image img {
+  max-width: 20px;
+  padding-top: 8px !important;
+}
+
+.wpdeveloper-upsale-notice .wpdeveloper-notice-message .button {
+  margin-left: 15px;
+}
+
+.eael-menu-notice {
+  background: red;
+  position: absolute;
+  bottom: 24px;
+  right: 0px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin: 1px 0 -1px 2px;
+  padding: 0 5px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background-color: #D63638;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.6;
+  text-align: center;
+  z-index: 26;
+  display: none;
+}
+
+/*
+* Halloween Notice css
+*/
+#wpnotice-better-payment-review {
+  padding: 15px;
+}
+
+.better-payment.notice .wpnotice-thumbnail-wrapper {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  max-width: 180px;
+}
+.better-payment.notice .wpnotice-content-wrapper {
+  font-size: 14px;
+}
+.better-payment.notice .wpnotice-content-wrapper p {
+  margin-bottom: 10px;
+}
+.better-payment.notice .wpnotice-content-wrapper a {
+  display: flex;
+  align-items: center;
+}
+
+#wpnotice-better-payment-review a {
+  text-decoration: none;
+}
+
+/* Holiday Notice */
+#wpnotice-better-payment-holiday_notice {
+  border-left: 1px solid #c3c4c7;
+  padding: 10px 40px 10px 20px;
+  gap: 30px !important;
+}
+
+#wpnotice-better-payment-holiday_notice .wpnotice-content-wrapper .bp-notice-action-button > a.button-primary,
+#wpnotice-better-payment-holiday_notice .wpnotice-content-wrapper .bp-notice-action-button > a.button-primary:focus,
+#wpnotice-better-payment-holiday_notice .wpnotice-content-wrapper .bp-notice-action-button > a.button-primary:hover {
+  background-color: #5626E7;
+  border-color: #5626E7;
+}
+
+#wpnotice-better-payment-holiday_notice .wpnotice-content-wrapper .bp-notice-action-button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#wpnotice-better-payment-holiday_notice .wpnotice-content-wrapper .bp-notice-action-button .bp-notice-action-dismiss {
+  color: #5626E7;
+  font-size: 14px;
+}
+
+#wpnotice-better-payment-holiday_notice .wpnotice-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#wpnotice-better-payment-holiday_notice .wpnotice-content-wrapper {
+  align-items: start;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#wpnotice-better-payment-holiday_notice .wpnotice-content-wrapper p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.notice-better-payment-holiday_notice.is-dismissible .wpnotice-thumbnail-wrapper img {
+  width: auto !important;
+  max-width: 160px !important;
+  padding-left: 12px;
+}
+
+@media screen and (max-width: 574px) {
+  #wpnotice-better-payment-holiday_notice {
+    display: none !important;
+  }
+}
+/* Notice : Ends */
+/* Dashboard Settings Page : Starts */
+.better-payment .bp-tabs .tab__content {
+  display: block !important;
+}
+
+/* Dashboard Settings Page : Ends */
+/* Transaction Page : Starts */
+.better-payment .fix-style.button.bp-select-custom-button {
+  background: #fff;
+  border: 1px solid #CFD7E7 !important;
+  color: #9095A2;
+  font-weight: normal !important;
+  width: 100%;
+}
+
+.better-payment .fix-style.button.bp-select-custom-button:hover {
+  border: 1px solid #735EF8 !important;
+  color: #735EF8;
+}
+
+.better-payment .fix-style.button.bp-select-custom-button:hover svg path {
+  fill: #735EF8;
+}
+
+.better-payment .fix-style.button.bp-select-custom-button::before,
+.better-payment .fix-style.button.bp-select-custom-button::after {
+  background: unset;
+}
+
+.better-payment .bp-select-custom-button-wrap .checkbox input {
+  border: 1px solid #C0C3D3;
+  border-radius: 3px;
+  min-width: 15px;
+  height: 15px;
+}
+
+.better-payment .bp-select-custom-button-wrap {
+  position: relative;
+}
+
+.better-payment .bp-select-custom-button-dropdown .checkbox input:checked::before {
+  height: 20px;
+  width: 20px;
+}
+
+.better-payment .bp-select-custom-button-dropdown {
+  position: absolute;
+  right: 0;
+  /* left: -30%; */
+  left: 0;
+}
+
+.better-payment .email-recipient-field {
+  margin-bottom: 10px;
+}
+
+.better-payment .email-recipient-field-note {
+  color: #666;
+}
+
+.better-payment .single-transaction-view.bp-left-arrow-lite:before {
+  color: #597dfc;
+}
+
+.better-payment .page__title span a:hover .single-transaction-view.bp-left-arrow-lite:before {
+  color: #fff;
+}
+
+.better-payment .page__title span a.single-transaction-view-back-btn:before {
+  background: rgba(89, 125, 252, 0.1);
+}
+
+.better-payment .page__title span a.single-transaction-view-back-btn {
+  border: none;
+  background: rgba(89, 125, 252, 0.1);
+  border-radius: 5px;
+}
+
+.better-payment .better-payment-transaction-export {
+  padding: 20px 30px;
+  border: 0;
+  margin-left: 10px;
+}
+
+.better-payment .better-payment-transaction-reset {
+  margin-left: 20px;
+  padding: 20px 30px;
+  border: none;
+}
+.better-payment .better-payment-transaction-import-button.button {
+  margin-left: 10px;
+  padding: 0 20px;
+  height: 40px;
+}
+.better-payment .better-payment-transaction-import-wrap .file-cta,
+.better-payment .better-payment-transaction-import-wrap .file-name {
+  height: 3em;
+  display: flex;
+}
+.better-payment .transaction-table-wrapper .col__name p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.better-payment .transaction-table-wrapper .imported-icon {
+  font-size: 15px;
+}
+.better-payment .transaction-table-wrapper .col__source img {
+  max-width: 100px;
+}
+.better-payment .font-bold {
+  font-weight: bold;
+}
+
+/* Transaction Page : Ends */
+/* Transaction Details Page : Starts */
+.better-payment .transaction__info__wrap .source img {
+  max-width: 100px;
+}
+
+.better-payment .payment__info .paid_via_selected img {
+  max-width: 100px;
+}
+
+/* Transaction Details Page : Ends */
+@media only screen and (max-width: 767px) {
+  .notice-better-payment-halloween_notice,
+  .notice-better-payment-black_friday_notice {
+    display: none !important;
+  }
+}

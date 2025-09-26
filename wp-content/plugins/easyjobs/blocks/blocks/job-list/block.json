@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "easyjobs/job-list",
+	"version": "0.1.0",
+	"title": "Job List",
+	"category": "easyjobs",
+	"description": "Display job listings & customize how they appear on your career page.",
+	"editorStyle": "ej-editor-style",
+	"supports": {
+		"anchor": true,
+		"align": ["wide", "full"]
+	},
+  	"textdomain": "easyjobs"
+}

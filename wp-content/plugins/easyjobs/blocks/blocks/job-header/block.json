@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "easyjobs/job-header",
+	"version": "0.1.0",
+	"title": "Company Profile",
+	"category": "easyjobs",
+	"description": "Introduce your company with essential information and customize as necessary.",
+	"editorStyle": "ej-editor-style",
+	"supports": {
+		"anchor": true,
+		"align": ["wide", "full"]
+	},
+  	"textdomain": "easyjobs"
+}

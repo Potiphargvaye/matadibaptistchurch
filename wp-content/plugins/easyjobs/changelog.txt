@@ -1,0 +1,481 @@
+= 2.6.0 - 20/04/2025 =
+* Added: WordPress 6.8 compatibility.
+* Improved: API Responses for Synchronizing the Application and Plugin.
+* Few minor bug fixes & improvements.
+
+= 2.5.10 - 24/03/2025 =
+* Added: An option for users to easily communicate for support.
+* Fixed: Showing expired label in Draft and Archived jobs.
+* Improved: API response and UI for Question Set and Assessments.
+* Few minor bug fixes & improvements.
+
+= 2.5.9 - 02/03/2025 =
+* Added: Show on job board option.
+* Added: Allow no job experience option.
+* Added: All Jobs in Job filtering list.
+* Fixed: Domain or sub-domain validation issue.
+* Fixed: AI Setup enable/disable issue in settings.
+* Few minor bug fixes & improvements.
+
+= 2.5.8 - 14/01/2025 =
+* Fixed: Plugin conflict with Essential Blocks.
+* Fixed: UI issue inside subscription.
+* Few minor bug fixes & improvements.
+
+= 2.5.7 - 26/12/2024 =
+* Hotfix: Brand color confirmation notice error.
+* Few minor bug fixes & improvements.
+
+= 2.5.6 - 22/12/2024 =
+* Improved: Company size UI in Create Company Form & Settings.
+* Updated: Data list for Industries in Create Company Form.
+* Few minor bug fixes & improvements.
+
+= 2.5.5 - 14/11/2024 =
+* Added: WordPress 6.7 compatibility.
+* Added: Brand color support in Landing page and Job Details pages.
+* Fixed: Page width issue for Job Details shortcode in Twenty Twenty-Four theme.
+* Few minor bug fixes & improvements.
+
+= 2.5.4 - 23/10/2024 =
+* Fixed: Frontend job filter not working after permalink change.
+* Fixed: Multiple API connection messages in the Career Page Block.
+* Few minor bug fixes & improvements.
+
+= 2.5.3 - 17/10/2024 =
+* Hotfix: Resolved the issue with repeated API calls.
+* Few minor bug fixes & improvements.
+
+= 2.5.2 - 16/10/2024 =
+* Added : Career Page Block for Gutenberg editor.
+* Improved : Added documentation link for all blocks.
+* Few minor bug fixes & improvements.
+
+= 2.5.1 - 02/10/2024 =
+* Added : Job Header & Job Footer Block for Gutenberg editor.
+* Fixed: Plugin conflict with Essential Blocks.
+* Fixed: Image upload issue.
+* Improved: Pagination for Job List and Landing Page.
+* Few minor bug fixes & improvements.
+
+= 2.5.0 - 18/09/2024 =
+* Added : Job List Block for Gutenberg editor.
+* Few minor bug fixes & improvements.
+
+= 2.4.16 - 03/09/2024 =
+* Enhanced: Security improvements.
+* Fixed: Some API responses.
+* Few minor bug fixes & improvements.
+
+= 2.4.15 - 20/08/2024 =
+* Enhanced: Security improvements reported by Patchstack.
+* Few minor bug fixes & improvements.
+
+= 2.4.14 - 31/07/2024 =
+* Fixed: Compatibility issue with Divi builder.
+* Few minor bug fixes & improvements.
+
+= 2.4.13 - 24/06/2024 =
+* Added: Translation feature.
+* Few minor bug fixes & improvements.
+
+= 2.4.12 - 06/06/2024 =
+* Improvement: Fixed responsive issues for all themes.
+* Few minor bug fixes & improvements.
+
+= 2.4.11 - 04/04/2024 =
+* Improvement: Added note, attachment icon on candidate list page.
+* Improvement: Candidates list page filter with rated option.
+* Few minor bug fixes & improvements.
+
+= 2.4.10 - 06/03/2024 =
+* Added: FSE Support for template pages
+* Few minor bug fixes & improvements.
+
+= 2.4.9 - 29/01/2024 =
+* Fixed:  Landing page customizer control issues.
+* Few minor bug fixes & improvements.
+
+= 2.4.8 - 27/12/2023 =
+* Added: Verification Badge in Job Details page.
+* Added: Enterprise & Agency info in Subscription Settings.
+* Fixed: Social Icon color issue.
+* Fixed: List Style Type issue in frontend.
+* Fixed: State and City data structure.
+* Improved: UI in different dashboard pages.
+* Improved: API connection message.
+* Few minor bug fixes & improvements.
+
+= 2.4.7 - 17/12/2023 =
+* Fixed: Security issue reported by WPScan.
+* Fixed: Minor bugfix and improvement
+
+= 2.4.6 - 07/12/2023 =
+* Fixed: Company api calling multiple times
+* Fixed: Minor bugfix and improvement
+
+= 2.4.5 - 30/11/2023 =
+* Added: Invite Candidates, Share Jobs, Read Blog, and See All candidates block with recent applicants in dashboard
+* Added: Filter by location control in settings, elementor & customizer
+* Added: Number of jobs field in settings
+* Added: Pagination in frontend for Jobs
+* Improved: UI and Jobs filtering through API
+* Fixed: Minor bugfix and improvements.
+
+= 2.4.4 - 21/11/2023 =
+* Fixed: Some minor warnings
+
+= 2.4.3 - 20/11/2023 =
+* Fixed: Minor bugfix and improvements.
+
+= 2.4.2 - 22/10/2023 =
+* Fixed: Duplicate page creation issue.
+* Fixed: Minor bugfix and improvements.
+
+= 2.4.1 - 05/10/2023 =
+* Added: State and City create option
+* Added: Filter by location
+* Added: Location filter control in elementor and customizer
+
+= 2.4.0 - 21/09/2023 =
+* Improved: Login options UI in Candidate Apply Settings
+* Improved: Custom Apply Fields UI in Candidate Apply Settings
+* Added: Attach Resume With Email in Candidate Apply Settings
+* Improved: Custom Job Apply Field UI in Jobs customize fields
+* Added: Remove option in logo, favicon, cover photo & showcase photos
+* Added: Show/Hide option for company cover photo
+* Added: Pin/Unpin option in Jobs
+* Added: Pin/Unpin icon in default, classic & elegant themes
+* Added: Job cover photo show/hide option in Jobs
+* Added: Job type label in frontend for classic & elegant themes
+* Added: Analytics data with Recent Jobs in dashboard
+* Added: Pipeline label with Recent Applicants in dashboard
+* Added: Hide share option for expired jobs in Dashboard
+* Added: Pipeline label in Candidates
+* Fixed: Minor bugfix and improvements
+
+= 2.3.4 - 22/08/2023 =
+* Added: Added job type label in frontend for default theme
+* Improved: Hide fields if there is no data in default, classic & elegant themes
+* Fixed: Empty value issue of Country, State, & City fields in settings and job
+* Fixed: Minor bugfix and improvements
+
+= 2.3.3 - 07/08/2023 =
+* Added: Salary range fields
+* Added: +7 days & +30 Days option with expiry date field
+* Added: Description & Instruction fields in Screening & Quiz tab
+* Added: Added edit button & changed the UI of Screening & Quiz tab
+* Added: Screening & Quiz deletion
+* Improved: Cache company details for improve performance
+* Fixed: Minor bugfix and improvements
+
+
+= 2.3.2 - 27/07/2023 =
+* Fixed: Company info api calling multiple times
+* Fixed: Minor bugfix and improvements
+
+= 2.3.1 - 09/07/2023 =
+* Added: Drag & Drop pipeline steps in Pipeline Setup and Job Pipeline
+* Improved: Confirmation popup while deleting Pipeline
+* Updated: Missing selected and rejected className
+* Fixed: Minor bugfix and improvements
+
+= 2.3.0 - 21/06/2023 =
+* Updated: Pipeline setup ui in settings
+* Updated: Job pipeline ui
+* Added: Pipeline type in pipeline create
+* Added: Candidates filter by status in candidates and job candidates page
+* Improved: Search in candidates, questions & assessments
+
+= 2.2.0 - 06/06/2023 =
+* Added: Analytics in dashboard
+* Added: Company verification badge
+* Added: First name and Last name as required field in basic information job apply rules
+* Added: Loading state in recent jobs section of dashboard
+* Fixed: Responsive issue of job filter and search in Elementor
+* Fixed: Candidate navigation negative value and console error issue
+* Fixed: Active job limit check for free users
+* Fixed: Assessment edit issues
+
+= 2.1.2 - 08/05/2023 =
+
+* Added: Job filter and search is added for Elementor
+* Added: Job filter and search manage option in Customizer
+* Fixed: Minor bugfix and improvements
+
+= 2.1.1 - 12/04/2023 =
+* Added: Job filter by category and search is added in frontend
+* Fixed: Minor bugfix and improvements
+
+= 2.1.0 - 03/04/2023 =
+* Added: Question set manage
+* Added: Assessment manage
+* Added: Candidate navigation in candidate details
+* Added: Extend expiry and mark expired option in jobs list
+* Improved: Navigation menu in wp-admin, Create job menu is removed from sidebar
+* Fixed: Some syntax error for php 7.1
+* Fixed: Some minor issues and status messages
+
+= 2.0.1 - 12/02/2023 =
+* Fixed: View url not showing for search job
+* Fixed: Api key is not showing for PHP 8.1
+* Fixed: Candidate filter label not showing properly for padding
+
+= 2.0.0 - 12/02/2023 =
+* Improved: Admin rebuild with react
+* Added: Job type in job create and edit
+* Fixed: On job edit, basic info tab not showing proper data after update
+* Fixed: Ai score tab issue
+* Fixed: Shortcode names not showing
+* Fixed: PHP error for settings file
+* Fixed: Some minor issues
+
+= 1.6.6 - 25/01/2023 =
+* Fixed: Job search not working
+* Fixed: Multiple page create issue for jobs
+
+= 1.6.5 - 18/01/2023 =
+* Fixed: Show life section show/hide settings not working
+* Fixed: Company showcase photo update issue
+* Fixed: Empty Brand color update settings
+* Fixed: Company benefits section showing wrong data in classic template
+
+
+= 1.6.4 - 02/11/2022 =
+* Added: Black friday notice
+* Fixed: Some minor issues
+
+= 1.6.3 - 02/11/2022 =
+* Improved: Pagination for jobs and candidates
+* Improved: Default sorting for published job by expired date
+* Fixed: Setup career page url issue
+
+= 1.6.2 - 17/10/2022 =
+* Added: Show in job board toggle in job create and edit
+* Fixed: All candidate pagination not working
+* Fixed: Setup career page url issue
+
+= 1.6.1 - 29/09/2022 =
+* Improved: Loading in template settings page
+* Improved: Active/expired job filtering in elementor widget
+* Fixed: Shortcodes are not showing job title and id
+* Fixed: PHP notice when adding notes
+* Fixed: Job list design is broken for shortcode
+
+
+= 1.6.0 - 29/09/2022 =
+* Added: Added template for landing page and details page
+* Added: Some more controls in customizer
+* Fixed: After company information update flush cache in plugin
+* Fixed: Candidate count mismatch with app
+* Fixed: Some typo
+
+= 1.5.8 - 13/09/2022 =
+* Fixed: Tag a manager in candidate note
+* Fixed: Remove extra semicolon from job banner
+
+= 1.5.7 - 23/08/2022 =
+* Added: Option for hide job cover photo
+* Fixed: Job location does not update
+
+= 1.5.6 - 06/07/2022 =
+* Improved: To avoid css/js conflicts load admin asset only if page is belongs to easyjobs
+* Fixed: Some php waring
+* Fixed: After sync data from settings page it redirects to create page
+
+= 1.5.5 - 04/07/2022 =
+* Fixed: Wrong year in landing page of admin
+* Fixed: In job create and edit, basic information is not showing when going back from another tab
+
+= 1.5.4 - 25/05/2022 =
+* Fixed: PHP warning for empty country and city name in elementor widget
+
+= 1.5.3 - 27/04/2022 =
+* Added: Other employment type input field in job create and update
+* Fixed: Stop api calls outside easy.jobs plugin scope
+
+= 1.5.2 - 11/04/2022 =
+* Fixed: Job social share url issue
+* Fixed: Pipeline list view tabs not working
+* Fixed: Added margin between company info and view site button
+
+= 1.5.1 - 03/03/2022 =
+* Fixed: Go to customizer button not working in settings
+
+= 1.5.0 - 24/02/2022 =
+* Added: Job duplicate
+* Added: See pending candidates of a job, resend invitation and delete
+
+= 1.4.10 - 17/02/2022 =
+* Fixed: Skills are not showing in job details
+
+= 1.4.9 - 03/02/2022 =
+* Fixed: Added more sanitization and escaping to avoid security issues
+* Fixed: Company select issue
+
+= 1.4.8 - 26/01/2022 =
+* Fixed: Some security issue, added sanitization and escaping
+
+= 1.4.7 - 26/01/2022 =
+* Added: Published job filter with active and expired status
+* Fixed: Some minor bugs
+
+= 1.4.6 - 06/12/2021 =
+* Improved: Parent job page create process
+* Added: Expired subscription check
+* Added: Admin notice for expired subscription and payment link
+* Fixed: Typo issue in warning
+
+= 1.4.5 - 24/10/2021 =
+* Added: Pipeline template in job pipelines
+* Improved: Remove unnecessary api calls from frontend
+* Fixed: Show default pipeline template in pipeline settings
+* Fixed: Show selected and rejected default steps in pipeline templates
+* Fixed: Icon is not showing in frontend job list page
+* Fixed: HTML markup breaks inside editor field
+
+= 1.4.4 - 23/08/2021 =
+* Fixed: Delete job page after job delete
+* Fixed: Job apply fields update not working properly in job edit
+* Fixed: Back to basic info tab not showing updated values in job create and edit
+* Fixed: Publish button issues in job edit
+* Fixed: Creating draft job from job create is not showing in draft items
+
+= 1.4.3 - 12/08/2021 =
+* Fixed: Api request issue with WordPress version 5.8
+* Fixed: Confirmation modal is not closing in candidate apply settings
+* Fixed: Job is not showing after edit
+* Added: More translation support
+
+= 1.4.2 - 12/07/2021 =
+* Added: Restrict unverified user from create job
+* Fixed: Company create issue in registration
+* Fixed: Settings not showing for new registered users
+
+= 1.4.1 - 11/07/2021 =
+* Added: Select job template in job create
+* Added: Autofill from in user registration
+* Fixed: Disable ai settings for free users
+* Fixed: Api disconnect issue
+* Fixed: Language(.pot) file issues
+
+= 1.4.0 - 13/06/2021 =
+* Added: Candidate note with tag manager
+* Added: Candidate remove option
+* Added: Notice for published job limit
+* Added: Analytics
+* Added: Sync data button in admin header
+* Fixed: Dashboard cards link
+* Fixed: Basic settings js error related with null value
+* Fixed: Job publish issue on job edit
+* Improved: Api key masking
+* Improved: Some minor design and performance
+
+= 1.3.6 - 31/03/2021 =
+* Fixed: Multiple job page create issue
+
+= 1.3.5 - 29/03/2021 =
+* Fixed: Jobs is not showing in parent page is deleted
+* Fixed: Company benefit is not showing in job details page
+
+= 1.3.4 - 15/03/2021 =
+* Added: New design for login and registration
+* Added: Welcome popup in dashboard
+* Fixed: Recent job edit link in dashboard
+* Some minor bugfix
+
+= 1.3.3 - 25/02/2021 =
+* Added: Redirect to plugin page after install
+* Added: WpInsight plugin tracking
+* Added: Notice for review plugin (WPDeveloper_Notice)
+* Improved: Dashboard view for new users
+* Fixed: Connect with empty api key
+
+= 1.3.2 - 15/02/2021 =
+* Added: Candidate rating
+* Improved: Hide api key from settings
+* Fixed: Company verification settings host field and copy button
+
+
+= 1.3.1 - 07/02/2021 =
+* Added: Ai score and Filter in job candidates
+* Added: Candidate data export in job
+* Added: Invite candidate in job
+* Fixed: Ai score is settings has no effect on candidates
+* Some minor bugfix
+
+= 1.3.0 - 26/01/2021 =
+* Added: Candidate apply settings
+* Added: Custom category and skills settings
+* Added: Custom category and skills in job create and edit
+* Added: Custom apply fields in job create and edit
+* Fixed: Edit pipeline inserting empty pipeline stage
+* Fixed: After edit pipeline it is not showing delete button
+* Fixed: Changed recent job status from ongoing to active
+
+= 1.2.3 - 17/01/2021 =
+* Fixed job expire date issue
+* Removed expired jobs from public job list
+
+= 1.2.2 - 26/11/2020 =
+* Added : Company pipeline settings
+* Added : Company ai settings
+* Added : Subscription in settings
+* Fixed : Customizer return url
+* Fixed : Screening question bugs in job create and edit
+* Fixed : Quiz bugs in job create and edit
+* Fixed : Verification settings bug
+
+= 1.2.1 - 23/11/2020 =
+* Added : New design for settings
+* Added : Company basic information settings
+* Added : Company photos and Colors settings
+* Added : Company verification notice and settings
+
+= 1.2.0 - 15/11/2020 =
+* Added : Job create
+* Added : Job edit
+* Added : Job delete
+* Fixed : Pipeline edit
+
+= 1.1.2 - 29/10/2020 =
+* Fixed : Customizer issues
+* Fixed : Some css issues in admin area
+* Fixed : Candidate list php warning
+* Added : Sign in with credentials
+* Added : Sign up
+* Added : Pipeline drag and drop feature
+* Added : Candidate Ai score
+
+= 1.1.1 - 09/10/2020 =
+* Fixed : Showing alert on API disconnect
+* Fixed : Single Job Page Create issue
+* Added : Trim for string comparison
+
+= 1.1.0 - 09/07/2020 =
+* Revamped whole plugin and added app like interface and functionality
+* Added : Dashboard page to show overview
+* Added : All Jobs page
+* Added : All Candidates page
+* Added : Single Candidates View page
+* Added : Pipeline page
+* Added : Customizer Options to change company landing page style
+* Added : Customizer Options to change job details page style
+* Added : Elementor Widget to create custom Career Page using Elementor
+* Lots of minor bugfix and improvements
+
+= 1.0.4 - 11/05/2020 =
+* Fixed : Salary range and office time doesn't show on job details
+
+= 1.0.3 - 04/02/2020 =
+* Fixed : Job details timing issue
+
+= 1.0.2 - 21/01/2020 =
+* Added apply url in job list
+
+= 1.0.1 - 09/01/2020 =
+* Apply URL issue fixed
+* Few minor bugfix and improvements
+
+= 1.0.0 =
+* Initial Stable Release

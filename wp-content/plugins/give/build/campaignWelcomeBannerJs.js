@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector(".wp-header-end"),n=document.querySelector('[data-stellarwp-givewp-notice-id="givewp-campaigns-welcome-banner-2025"]');e.insertAdjacentElement("afterend",n)})();

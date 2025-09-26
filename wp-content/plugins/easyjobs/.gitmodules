@@ -1,0 +1,3 @@
+[submodule "blocks/controls"]
+	path = blocks/controls
+	url = git@github.com:EssentialBlocks/controls.git
